@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Page Controller-->
+        <scene sceneID="3P3-6n-e6X">
+            <objects>
+                <pageViewController storyboardIdentifier="pageController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Qla-d3-YdR" customClass="PageController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U16-tU-JLO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-20" y="94"/>
+        </scene>
+        <!--Tutorial Controller-->
+        <scene sceneID="qXA-9l-ENz">
+            <objects>
+                <viewController storyboardIdentifier="pageViews" id="tMF-br-21a" customClass="TutorialController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w0Z-D7-bhg"/>
+                        <viewControllerLayoutGuide type="bottom" id="i8n-JI-gta"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="24t-hw-OMH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUu-vb-U48">
+                                <rect key="frame" x="321" y="36" width="38" height="35"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="Skip">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="skipTapped:" destination="tMF-br-21a" eventType="touchUpInside" id="dQd-U3-vrj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DUu-vb-U48" secondAttribute="trailing" constant="16" id="K2W-0s-a16"/>
+                            <constraint firstItem="DUu-vb-U48" firstAttribute="top" secondItem="w0Z-D7-bhg" secondAttribute="bottom" constant="16" id="Oe5-ch-3ix"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="skipBtn" destination="DUu-vb-U48" id="15M-4s-2hx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MR5-5O-dqq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="625" y="99"/>
+        </scene>
+    </scenes>
+</document>

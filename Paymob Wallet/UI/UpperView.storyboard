@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DIN Next LT Arabic Medium.ttf">
+            <string>DINNextLTArabic-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Upper Blue View Controller-->
+        <scene sceneID="7Kp-xA-2eJ">
+            <objects>
+                <viewController storyboardIdentifier="upperView" id="usb-Gp-Aqy" customClass="UpperBlueViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iqZ-c1-KAX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="133.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="OEa-H4-hd6">
+                                <rect key="frame" x="16" y="55" width="343" height="24"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="OrB-oi-iAI">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="24"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Jcg-dg-MS5">
+                                                <rect key="frame" x="0.0" y="0.0" width="233" height="24"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wallet-balance" translatesAutoresizingMaskIntoConstraints="NO" id="H42-FS-86B">
+                                                        <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="H42-FS-86B" secondAttribute="height" multiplier="1:1" id="avc-pU-PXD"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </imageView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="lastBaseline" translatesAutoresizingMaskIntoConstraints="NO" id="mrM-5J-2Bd">
+                                                        <rect key="frame" x="27" y="0.0" width="206" height="24"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text=";'kl;'k';k;'k';lk;'k'kkk'" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRf-LE-3ht">
+                                                                <rect key="frame" x="0.0" y="0.0" width="206" height="24"/>
+                                                                <fontDescription key="fontDescription" name="DINNextLTArabic-Medium" family="DIN Next LT Arabic" pointSize="16"/>
+                                                                <color key="textColor" name="mainText"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="h7L-z0-Dty">
+                                                <rect key="frame" x="277" y="0.0" width="66" height="24"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="93884.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="haO-4M-tR2">
+                                                        <rect key="frame" x="0.0" y="0.0" width="66" height="24"/>
+                                                        <fontDescription key="fontDescription" name="DINNextLTArabic-Medium" family="DIN Next LT Arabic" pointSize="16"/>
+                                                        <color key="textColor" name="mainText"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="EGP" textAlignment="center" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaK-zx-3fs">
+                                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="24"/>
+                                                        <fontDescription key="fontDescription" name="DINNextLTArabic-Medium" family="DIN Next LT Arabic" pointSize="16"/>
+                                                        <color key="textColor" name="mainText"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="OrB-oi-iAI" secondAttribute="trailing" id="Qj7-kD-Z38"/>
+                                    <constraint firstItem="OrB-oi-iAI" firstAttribute="top" secondItem="OEa-H4-hd6" secondAttribute="top" constant="10" id="Y4c-Pf-gpk"/>
+                                    <constraint firstItem="OrB-oi-iAI" firstAttribute="leading" secondItem="OEa-H4-hd6" secondAttribute="leading" id="ajO-r8-qjR"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Y4c-Pf-gpk"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Eh9-Ij-zqx"/>
+                        <color key="backgroundColor" name="OffWhiteBackground"/>
+                        <constraints>
+                            <constraint firstItem="OEa-H4-hd6" firstAttribute="leading" secondItem="iqZ-c1-KAX" secondAttribute="leadingMargin" id="1WB-dg-guv"/>
+                            <constraint firstItem="OEa-H4-hd6" firstAttribute="centerY" secondItem="iqZ-c1-KAX" secondAttribute="centerY" id="CoM-Ye-3DT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OEa-H4-hd6" secondAttribute="trailing" id="ehK-sz-QfI"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="133.5"/>
+                    <connections>
+                        <outlet property="amount" destination="haO-4M-tR2" id="Nih-Dz-Qkj"/>
+                        <outlet property="egpTxt" destination="oaK-zx-3fs" id="qwk-tV-QSj"/>
+                        <outlet property="userImage" destination="H42-FS-86B" id="Kx9-QA-uIx"/>
+                        <outlet property="userName" destination="RRf-LE-3ht" id="gIt-NK-MQo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hXG-DT-HsV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1196" y="10"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wallet-balance" width="24" height="24"/>
+        <namedColor name="OffWhiteBackground">
+            <color red="0.97600001096725464" green="0.98000001907348633" blue="0.98799997568130493" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainText">
+            <color red="0.10999999940395355" green="0.1289999932050705" blue="0.12200000137090683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

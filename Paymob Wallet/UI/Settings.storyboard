@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Avenir.ttc">
+            <string>Avenir-Book</string>
+        </array>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Reset Pin View Controller-->
+        <scene sceneID="Ngj-Ds-CgO">
+            <objects>
+                <viewController storyboardIdentifier="ResetPinVC" id="OTI-kf-JJK" customClass="ResetPinViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aZm-lX-nxQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="xeD-DZ-56Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EKU-Ik-ez3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="r81-RO-oTd">
+                                <rect key="frame" x="77.5" y="50" width="220" height="370"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" the mpin can only be in english letters" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wCB-hS-CTJ">
+                                        <rect key="frame" x="27.5" y="0.0" width="165" height="35"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" red="0.29624021049999999" green="0.29623135919999999" blue="0.29623636599999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Wgc-4F-9kI">
+                                        <rect key="frame" x="0.0" y="85" width="220" height="200"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Old MPIN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b1O-fz-H5o" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="220" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="REQ-WS-zHX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" secureTextEntry="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomBorderColor">
+                                                        <color key="value" red="0.69411778449999995" green="0.69411766529999996" blue="0.69411766529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomBorderWidth">
+                                                        <real key="value" value="-1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderTextColor">
+                                                        <color key="value" red="0.69411778449999995" green="0.69411766529999996" blue="0.69411766529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="New MPIN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TJC-93-57Y" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="85" width="220" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" secureTextEntry="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomBorderColor">
+                                                        <color key="value" red="0.69411778449999995" green="0.69411766529999996" blue="0.69411766529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomBorderWidth">
+                                                        <real key="value" value="-1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderTextColor">
+                                                        <color key="value" red="0.69411778449999995" green="0.69411766529999996" blue="0.69411766529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm MPIN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="doQ-mD-ZIj" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="170" width="220" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" secureTextEntry="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="bottomBorderColor">
+                                                        <color key="value" red="0.69411778449999995" green="0.69411766529999996" blue="0.69411766529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomBorderWidth">
+                                                        <real key="value" value="-1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderTextColor">
+                                                        <color key="value" red="0.69411778449999995" green="0.69411766529999996" blue="0.69411766529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="F8v-os-r80"/>
+                                            <constraint firstItem="TJC-93-57Y" firstAttribute="height" secondItem="b1O-fz-H5o" secondAttribute="height" id="HcD-ZS-mT2"/>
+                                            <constraint firstItem="doQ-mD-ZIj" firstAttribute="height" secondItem="b1O-fz-H5o" secondAttribute="height" id="Yid-UP-Po2"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6s-Hz-saP" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="35" y="335" width="150" height="35"/>
+                                        <color key="backgroundColor" red="0.028280675410000001" green="0.12049393360000001" blue="0.43798881769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="C8L-z4-gnW"/>
+                                            <constraint firstAttribute="width" constant="150" id="XeC-Up-Dvx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="16"/>
+                                        <color key="tintColor" red="0.08913869411" green="0.41796547169999998" blue="0.80561339860000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="imageEdgeInsets" minX="-11" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Set MPN">
+                                            <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="setPinTapped:" destination="OTI-kf-JJK" eventType="touchUpInside" id="PXi-fL-cJN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Wgc-4F-9kI" firstAttribute="leading" secondItem="r81-RO-oTd" secondAttribute="leading" id="Hj4-yl-hcq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wgc-4F-9kI" secondAttribute="trailing" id="jwN-en-bf9"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="qfu-NY-1AG"/>
+                                    <constraint firstAttribute="width" constant="220" id="zT1-0R-xas"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r81-RO-oTd" firstAttribute="centerX" secondItem="EKU-Ik-ez3" secondAttribute="centerX" id="U7e-OP-OT8"/>
+                            <constraint firstItem="r81-RO-oTd" firstAttribute="top" secondItem="aZm-lX-nxQ" secondAttribute="bottom" constant="50" id="bHP-wG-gJu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmPinTxt" destination="doQ-mD-ZIj" id="6KL-94-8gA"/>
+                        <outlet property="newPinTxt" destination="TJC-93-57Y" id="dUW-XO-Meg"/>
+                        <outlet property="oldPinTxt" destination="b1O-fz-H5o" id="lFh-iS-ute"/>
+                        <outlet property="pinMessageLabel" destination="wCB-hS-CTJ" id="Fme-9D-Yk0"/>
+                        <outlet property="setPinBtn" destination="f6s-Hz-saP" id="RsF-1G-AI8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3vh-TJ-BKM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="918" y="43"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="zEy-0P-xLe">
+            <objects>
+                <tableViewController storyboardIdentifier="SettingTable" id="QNt-P7-IeO" customClass="SettingsTableViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="mna-Ga-dyo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="Lpz-7r-ZMK">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="TPa-Lx-yLY" style="IBUITableViewCellStyleDefault" id="IwJ-Dj-ccX">
+                                        <rect key="frame" x="0.0" y="18" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IwJ-Dj-ccX" id="EvL-V9-XFo">
+                                            <rect key="frame" x="0.0" y="0.0" width="350.5" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="CHANGE MPIN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TPa-Lx-yLY">
+                                                    <rect key="frame" x="16" y="0.0" width="326.5" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ratingTableViewCell" id="af7-1p-zRm" customClass="ratingTableViewCell" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="62" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="af7-1p-zRm" id="uYP-WC-h4P">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="YYH-9o-biD">
+                                                    <rect key="frame" x="20" y="7" width="335" height="30"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enable Rating" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOn-tX-K86">
+                                                            <rect key="frame" x="0.0" y="0.0" width="266" height="30"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGV-pv-jfs">
+                                                            <rect key="frame" x="286" y="0.0" width="51" height="30"/>
+                                                            <connections>
+                                                                <action selector="EnableRateAction:" destination="QNt-P7-IeO" eventType="valueChanged" id="iVa-Tw-qws"/>
+                                                            </connections>
+                                                        </switch>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="YYH-9o-biD" secondAttribute="bottom" constant="7" id="0xX-wc-UwV"/>
+                                                <constraint firstItem="YYH-9o-biD" firstAttribute="leading" secondItem="uYP-WC-h4P" secondAttribute="leading" constant="20" id="Axu-na-CEY"/>
+                                                <constraint firstItem="YYH-9o-biD" firstAttribute="top" secondItem="uYP-WC-h4P" secondAttribute="top" constant="7" id="HNu-B1-tzg"/>
+                                                <constraint firstAttribute="trailing" secondItem="YYH-9o-biD" secondAttribute="trailing" constant="20" id="xHE-Ly-H5y"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="QNt-P7-IeO" id="oQH-eV-Bma"/>
+                            <outlet property="delegate" destination="QNt-P7-IeO" id="09r-ye-BEo"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Settings" id="hS0-yf-ZDz">
+                        <barButtonItem key="leftBarButtonItem" image="Menu-23" id="OOo-Xq-LQc">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="menuClicked:" destination="QNt-P7-IeO" id="dXe-un-xkU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cell" destination="IwJ-Dj-ccX" id="Rr4-ED-pRd"/>
+                        <outlet property="enableRatingLabel" destination="nOn-tX-K86" id="qRr-6k-pfU"/>
+                        <outlet property="ratingCell" destination="af7-1p-zRm" id="OL9-mc-FBq"/>
+                        <outlet property="ratingSwitch" destination="wGV-pv-jfs" id="yKV-gN-TLW"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auL-CK-Cjk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="274" y="43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu-23" width="30" height="17"/>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

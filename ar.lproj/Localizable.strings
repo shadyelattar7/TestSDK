@@ -1,0 +1,360 @@
+/* 
+  Localizable.strings
+  Paymob Wallet
+
+  Created by mahmoud on 10/24/17.
+  Copyright © 2017 mahmoud. All rights reserved.
+*/
+
+
+/* auth*/
+"showAll" = "عرض الكل";
+"HalanServices" = "خدمات حالا المالية";
+"pleaseEnterYourPin" = "من فضلك ادخل الرقم السرى";
+"login" = "دخول";
+"register" = "تسجيل الدخول";
+"poweredBy" = "Powered By:";
+"verificationCode" = "رمز التأكيد";
+"youWillRecieveSms" = "تم ارسال كود تفعيل فى رسالة نصية الى رقم موبايل ";
+"sendVerificationCode" = "ارسال كود التفعيل";
+"resendSms" = "إعادة إرسال الرسالة";
+"submit" = "ارسل";
+"howToRegTitle" = "كيفية التسجيل";
+"firstStep" = "1. زور أقرب فرع";
+"secondStep" = "2.إملأ الاستمارة وارسل صورة بطاقة الرقم القومي";
+"thirdStep" = "3. سوف تتلقى رسالة برابط التطبيق ووصفه";
+"fourthStep" = "4.أدخل رمز التفعيل ورقمك السري المفضل في التطبيق";
+"fifthStep" = "5.استمتع بالخدمة";
+"bySubmittingYourMob" = "بالتأكيد على التطبيق فإنك توافق على الشروط والأحكام";
+"oldPinPLaceHolder" = "الرقم السري الحالي";
+
+"howToReg" = "خطوات التسجيل";
+"regFirstStep" = "١. برجاء زيارة اقرب فرع";
+"regSecondStep" = "٢. املأ الاستمارة و ارسل صورة بطاقة الرقم القومى";
+"regThirdStep" = "٣. سوف تتلقى رسالة برابط التتطبيق ووصفه";
+"regForthStep" = "٤. ادخل رمز التفعيل ورقمك السرى المفضل فى التطبيف";
+"regFifthStep" = "٥. استمتع بالخدمة";
+
+"mobileNumber" = "رقم المحمول";
+"reMobileNumber" = "المرسل إليه";
+"termsAndConditionTitle" = "الشروط و الاحكام";
+"changePin" = "تغيير الرقم السرى";
+"setPin" = "تحديد الرقم السري";
+"newPin" = "الرقم السري الجديد";
+"confirmPin" = "تأكيد الرقم السرى";
+"pin6Digits" = "يجب ان يكون الرقم السرى 6 احرف.";
+"signInLogo" = "sign_in_logo";
+"firstName" = "الاسم الاول";
+"middleName" = "الاسم الأوسط";
+"lastName" = "اسم العائلة";
+"nationalId" = "الرقم القومى";
+"nationalIdTop" = "الرقم المرجعي";
+"address" = "العنوان";
+"pinMsg" = "برجاء الانتباه إن الرقم السري يجب أن يكون بالارقام الاجنبية فقط";
+"throttleMessage" = "الرجاء المحاولة مرة أخرى بعد 10 ثوانى";
+/*navigation*/
+
+"walletBalance" = "رصيد المحفظة";
+"egp" = "جنية";
+"send" = "تحويل أموال";
+"pay" = "دفع";
+"load" = "محفظتى";
+"balance" = "رصيدك الحالي";
+"p2p" = "حول لصديق";
+"bills" = "دفع فواتير";
+"topUp" = "شحن عالطاير";
+"qrCode" = "حالا كاش كود";
+"myWallet" = "سحب وإيداع";
+"eCommere" = "اشتري أونلاين";
+"navIcon" = "navIcon_ar";
+"backTitle" = "back_ar";
+"currentBalance" = "رصيدك الحالى:";
+"homeSend" = "أرسال أموال";
+"homePay" = "مدفوعات";
+"homeCashOut" = "سحب";
+"homeCashIn" = "إيداع";
+"homePastTransactions" = "مدفوعاتي السابقة";
+"homeInstallements" = "دفع أقساط";
+"homeBills" = "فواتير";
+"homeMobileAndInternet" = "موبايل وإنترنت";
+"homeShoppingCards" = "كارت تسوق";
+
+/*pay*/
+"electronicUseOnly" = "الإستخدام الإلكترونى فقط";
+"newCard" = "بطاقة جديده";
+"amount" = "القيمة";
+"cancel" = "الغاء";
+"next" = "التالي";
+"featured" = "الافتراضي";
+"store" = "المتاجر";
+"services" = "الخدمات";
+"online" = "الشراء اونلاين";
+"brandCode" = "كود البائع";
+"deleteAll" = "حذف الكل";
+"generate" = "تأكيد";
+"validUntil" = "صالح حتى ";
+"card" = "بطاقة";
+"generateCard" = "اصدار بطاقة";
+"validUntil" = "صالح حتى ";
+"card" = "بطاقة";
+"orderNo" = "رقم الطلب";
+"payBulkBill" = "Pay Bulk Bills";
+"cardAmount" = "قيمة البطاقة؟";
+"requestNewCard" = "طلب بطاقة جديدة";
+"raseedy" = "حالا كاش";
+"reject" = "إلغاء";
+"cardMessage" = "قم بنسخ الرقم الموجود على بطاقتك بالاسفل ووضعه فى خانه الشراء فى صفحة المنتج الذى تريد شرائة";
+"vcnCard" = "cardAr";
+
+"vcnTitle" = "رصيد كارت التسوق الجديد";
+"cardBalance" = "رصيد الكارت";
+"vcnSubTitle" = "أدخل الرصيد الذى تود اصدار الكارت الجديد به";
+
+"payByQrTitle" = "إدفع عن طريق كود QR";
+"payByQrSubTitle" = "إدفع عن طريق مسح كود QR الخاص بالفرع";
+"payByQrOrManually" = "او يمكنك إدخال البيانات يدويا بنفسك";
+"payByQrBtn" = "إدفع بكود QR";
+"payManuallyBtn" = "إدخال البيانات يدويا";
+"paymentInfo" = "بيانات عملية الدفع";
+"paymentInfoEntry" = "قم بإدخال بيانات التاجر التالية لإتمام عملية الدفع";
+"payByScanningQR" = "الدفع عن طريق مسح كود QR";
+"disclaimer" = "يمكنك إضافة كارت واحد فقط في الشهر";
+"scanDetails" = "تفاصيل";
+"tips" = "الاكرامية";
+"convenienceFees" = "خدمة تسهيل الدفع";
+"Card details" = "بيانات الكارت";
+"Card number" = "رقم الكارت";
+"Expire date" = "تاريخ الانتهاء";
+
+
+/*map*/
+"map" = "الخريطة";
+
+/*backgroundTasks*/
+"confirmTitle" = "تأكيد الرقم السري";
+"pin" = "الرقم السرى";
+"enterYourPin" = "أدخل كود حالا كاش السرى الخاص بك";
+"done" = "تم";
+"updateAppTitle" = "تحديث التطبيق";
+"updateAppDescription" = "يرجى تحديث التطبيق لمواصلة استخدامه";
+"update" = "تحديث";
+"updateBtn" = "تحديث";
+
+/*load*/
+"youCanCashIn" = "يمكنك ربط كارت بنك صعيب لشحن محفظتك برجاء الذهاب إلى أي فرع تساهيل أو بنك صعيب لربط كرتك البنكي يمكنك أيضاً الاتصال بالكول سنتر التابع للبنك لربط محفظتك وانت مستريح";
+"cashIn" = "ايداع";
+"mapInfo" = "يمكنك الذهاب إلى أي فرع تساهيل لسحب و إيداع رصيدك فالمحفظة برجاء الاتصال بالخط الساخن (16134) للمعرفة عن أقرب فرع لك أو المعرفة عن المزيد من المعلومات\n";
+"infoMaps" = "معلومات/خرائط";
+"avl" = "بطاقة بنكية";
+
+/*send*/
+"recipient" = "رقم موبايل المستلم";
+"enterRecipient" = "أدخل رقم الموبايل الذى تريد ارسال الاموال اليه";
+"chooseContact" = "إختر من جهات الإتصال لديك";
+"recents" = "عمليات حديثة";
+"(optional)" = "(اختياري)";
+"message" = "الرسالة";
+"reciepentMobileNumber" = "رقم الهاتف المستقبل";
+"writeMessage" = "أضف رسالة للمستلم (إختياري)";
+
+"sendAmountTitle" = "المبلغ المراد ارساله";
+"sendAmountSubTitle" = "قم بإدخال قيمة المبلغ الذي تريد إرساله للمستلم";
+/*history*/
+"history" = "السجل";
+"all" = "الكل";
+"recieved" = "مستلم";
+"sent" = "إرسال";
+"pending" = "انتظار";
+"date" = "التاريخ";
+"type" = "النوع";
+"transaction" = "المحول";
+"participant" = "المشارك";
+"status" = "الحالة";
+"successfull" = "ناجحة";
+"failure" = "فاشلة";
+"transactionID" = "رقم العملية";
+"export" = "إستخراج";
+
+/*settings*/
+"resetPin" = "تغيير الرقم السرى";
+"settings" = "إعدادات";
+"oldPin" = "الرقم السري القديم";
+"changeMPin" = "تغيير الرقم السرى";
+"changeMPin" = "تغيير الرقم السرى";
+
+/*confirmation*/
+"slideRight" = "إسحب يميناً للتأكيد";
+"confirmPayment" = "تاكيد الدفع";
+"totalDeductedAmount" = "إجمالي المبلغ المخصوم";
+"forService" = "مقابل الخدمة";
+"enterPinLab" = "أدخل الكود";
+"reviewTransaction" = "مراجعة البيانات";
+"recepientInfoHeaderSend" = "بيانات المستلم";
+"transactionDetails" = "تفاصيل العملية";
+"transactionType" = "نوع العملية";
+"transactionAmount" = "المبلغ";
+"transactionFees" = "الرسوم";
+"transactionTotalAmount" = "الإجمالي";
+"continue" = "إستمرار";
+"enterPinToContinue" = "من فضلك قم بادخال الرمز السرى لاتمام العملية";
+
+"messageLabel" = "رسالة المستلم";
+"transactionResponseInfo" = "بيانات العملية";
+"transactionResponseInfoTime" = "وقت و تاريخ العملية";
+"transactionResponseInfoTxn" = "رقم العملية";
+"transactionResponseInfoReference" = "الرقم المرجعي";
+"vcnInfo" = "بيانات الكارت";
+"vcnNumber" = "رقم الكارت";
+"vcnExpiry" = "تاريخ الانتهاء";
+"doneSuceesfully" = "تم بنجاح";
+"Pay installment successful" = "تم دفع القسط بنجاح";
+"donefailed" = "لقد فشل";
+"serviceProvider" = "إسم الخدمة";
+
+
+
+/*notification*/
+"notifications" = "إشعارات";
+"notification" = "إشعار";
+"merchant" = "المتاجر";
+"dueDate" = "تاريخ الدفع";
+"verify" = "تأكيد";
+"accept" = "موافق";
+"youWantToDeleteAll" = "هل تريد حذف الكل";
+"Warning" = "تحذير";
+"justNow" = "الأن";
+"hoursAgo" = "ساعة";
+"minutesAgo" = "دقيقة";
+"since" = " قبل ";
+
+/*cashout*/
+"cashout" = "تفريغ المحفظة";
+"cashin" = "إيداع المحفظة";
+"youCanCash" = "يمكنك السحب من أي ماكينة صرف آلي تحمل شعار ماستركارد موبايل في 3 خطوات بسيطة:";
+"cashoutFirstStep" = "1. إصدار كلمة سر متغيرة (الرقم السرى المتغير) من خلال التطبيق";
+"cashoutSecondStep" = "2. زيارة ماكينة الصراف الآلى";
+"cashoutThirdStep" = "3. استخدام كلمة السر في ماكينة الصراف الآلي لسحب النقود";
+"cashoutFourthStep" = "4. زيارة فرع تساهيل";
+"generateOtp" = "إصدار كلمة السر";
+"cashoutTitle" = "المبلغ  الذي تريد سحبه";
+"cashoutSubTitle" = "قم بإدخال قيمة المبلغ الذي تريد سحبه";
+"cashinTitle" = "المبلغ  الذي تريد إيداعه";
+"cashinSubTitle" = "قم بإدخال قيمة المبلغ الذي تريد إيداعه";
+"cashoutOtpTitle" = "الرمز السري المتغير";
+"cashoutOtpSubTitle" = "قم بادخال الرمز المتغير في ماكينة الصراف الالي لإتمام عملية السحب";
+"willExpireIn" = "الكود صالح حتى";
+"cashoutTimeOutTitle" = "لقد انتهت صلاحية الرمز السري المتغير";
+"cashoutTimeOutSubTitle" = "لقد انتهت صلاحية الرمز السري المتغير الخاص بك، برجاء طلب رمز جديد";
+"otpRetry" = "طلب رمز سري جديد";
+
+/*merchants*/
+"edit" = "تعديل";
+"delete" = "حذف";
+"add" = "إضافة";
+"merchantName" = "اسم التاجر";
+"merchantCode" = "الرقم التعريفي للتاجر";
+"addMerchant" = "إضافة تاجر";
+"enterMerchantDetails" = "إضافة تقاصيل التاجر";
+"updateMerchant" = "تعديل التاجر";
+"update" = "تعديل";
+"updateMerchantDetails" = "تعديل تقاصيل التاجر";
+
+/*profile*/
+"profile" = "بياناتى";
+"updateBalance" = "تحديث الرصيد";
+"editProfile" = "تعديل بياناتى";
+"modifyName" = "عدل الاسم";
+"enterYourName" = "أدخل إسمك الكامل";
+"editBtn" = "تعديل البيانات";
+"changePass" = "تغيير كلمة السر";
+"changePic" = "تغيير صورة الحساب";
+"rateApp" = "قيم التطبيق";
+"save" = "حفظ";
+"confirmBtn" = "موافق";
+"male" = "ذكر";
+"female" = "انثي";
+"myName" = "الاسم";
+"profilePersonnelInfo" = "البيانات الشخصية";
+"profileNationalID" = "الرقم القومى";
+"profileDOB" = "تاريخ الميلاد";
+"profileGender" = "النوع";
+"profileAddress" = "العنوان";
+"profileMail" = "البريد الالكترونى";
+"profileAccountInfo" = "اعدادات الحساب";
+"profileName" = "الاسم";
+"profileDisplayPicture" = "الصورة الشخصية";
+"profilePin" = "تغيير الرقم السرى";
+"ProfileEdit" = "تعديل البيانات";
+"ProfileLogOut" = "تسجيل الخروج";
+
+/*util*/
+"loading" = "جارى التحميل...";
+"success" = "تم بنجاح";
+"error" = "خطأ";
+"ok" = "موافق";
+"close" = "إغلاق";
+
+/*tranaction*/
+"billInqiure" = "طلب فاتورة";
+"payBill" = "دفع الفاتورة";
+"pay installment" = "دفع القسط";
+"topUp" = "ادفع قسطك";
+"pTopUp" = "شحن الرصيد";
+"vcn" = "اشتري أونلاين";
+
+/*drawer*/
+"dashboard" = "الصفحة الرئيسية";
+"logout" = "تسجيل الخروج";
+
+/*terms and conditions*/
+
+"termsAndConditionsTitle" = "الشروط و الأحكام الخاصة باستخدام خدمة المحفظة الذكية";
+"termsAndConditionsBody" = "عند توقيع العميل على طلب الاشتراك في الخدمة و تقديمه إلى فرع البنك أو مقدم الخدمة يعتبر عقد ملزم بين البنك و العميل ، و بالتالى يجب على العميل قراءة الشروط و الأحكام الخاصة بالخدمة بدقة و عناية قبل التوقيع.";
+
+
+/*register*/
+"createNewAccount" = "إنشاء حساب جديد";
+
+/*top up*/
+"tsaheel_logo" = "tasaheel_ar";
+"inquire" = "استعلام";
+"tsaheel" = "تساهيل";
+"mashrooy" = "مشروعي";
+"installementValue" = "قيمة القسط";
+"fee" = " رسوم الخدمة";
+"InstallmentId" = "رقم القسط";
+"topUpTitle" = "دفع أقساط";
+"chooseTopUp" = "إختر نوع الخدمة";
+"topUpInquirySubTitle" = "برجاء إدخال الرقم القومي المربوط بتساهيل";
+"pleaseEnter" = "برجاء إدخال";
+"linkedTo" = "المربوط ب";
+
+/*contact us*/
+
+"contactUs" = "تواصل معنا";
+"inTouch" = "ابقي علي التواصل معنا";
+"callUs" = "اتصل بنا";
+"or" = "او";
+"typeYourMessage" = "اكتب رسالتك هنا";
+"sendFeedback" = "ارسل رايك";
+"toLoadYour" = "لإيداع وسحب النقدية فى محفظة حالا كاش الخاصة بك في كل وقت وأي مكان توجه لأقرب ماكينة صراف آلي أو أكثر من ٦٠،٠٠٠ مكان عليه علامة أمان.";
+
+//Unregister
+"unregister" = "إلغاء التسجيل";
+"sendVerification" = "ارسل كود التحقق";
+"verification" = "التأكيد";
+
+//Branches
+"branches" = "أين تجدنا";
+
+// Rate
+"Rate Transaction" = "تقيم المعامله";
+"Rate" = "تقييم";
+"Send Feedback" = "تقييمك للخدمة";
+"Rate and Feedback" = "تقييم وتعليق";
+"Type your message here" = "اترك تعليق / شكوى";
+
+//Validation
+"11DigitValidation" = "الرقم لابد أن يكون 11 رقم";
+"largerThanBalanceValidation" = "هذا المبلغ أكبر من رصيد محفظتك";
+"serverError" = "لقد حدث خطأ ما، برجاء إعادة المحاولة مرة اخرى";

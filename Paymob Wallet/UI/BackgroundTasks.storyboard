@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GE_SS_Two_Medium.otf">
+            <string>GESSTwoMedium-Medium</string>
+        </array>
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Require Auth View Controller-->
+        <scene sceneID="zcI-Dr-b5E">
+            <objects>
+                <viewController storyboardIdentifier="RequireAuthVC" id="9TC-X5-iXo" customClass="RequireAuthViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ia3-gb-w3a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="1R8-xM-gDM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="417"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tWu-Db-47p">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONFIRM MPIN " lineBreakMode="wordWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dP-W0-faA" customClass="PaymobUILabel" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="108" y="10" width="159" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="pcI-I3-lod"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                                <color key="textColor" red="0.089920051400000006" green="0.50860416890000004" blue="0.843413949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="3dP-W0-faA" firstAttribute="centerY" secondItem="tWu-Db-47p" secondAttribute="centerY" id="Bi7-cC-IGF"/>
+                                            <constraint firstAttribute="height" constant="60" id="gWn-1c-2VZ"/>
+                                            <constraint firstItem="3dP-W0-faA" firstAttribute="centerX" secondItem="tWu-Db-47p" secondAttribute="centerX" id="uXO-Fe-vUW"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="trt-WY-aRK">
+                                        <rect key="frame" x="62.5" y="156" width="250" height="110"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Your MPIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCT-W8-6eA">
+                                                <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="9jK-z1-We8"/>
+                                                    <constraint firstAttribute="width" constant="150" id="fSM-Lo-SfS"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="default">
+                                                    <mask key="constraints">
+                                                        <exclude reference="fSM-Lo-SfS"/>
+                                                    </mask>
+                                                </variation>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rEc-ak-WON">
+                                                <rect key="frame" x="0.0" y="80" width="250" height="30"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="MPIN" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5f0-ad-UL4" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="250" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="JVw-wB-drG"/>
+                                                            <constraint firstAttribute="height" constant="30" id="uxK-ek-4Ht"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" secureTextEntry="YES"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="bottomBorderWidth">
+                                                                <real key="value" value="-1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="bottomBorderColor">
+                                                                <color key="value" red="0.32209974530000002" green="0.32196959850000001" blue="0.32583069799999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <variation key="default">
+                                                            <mask key="constraints">
+                                                                <exclude reference="JVw-wB-drG"/>
+                                                            </mask>
+                                                        </variation>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="23a-94-9cP"/>
+                                            <constraint firstAttribute="width" constant="160" id="CUr-JD-IqT"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="CUr-JD-IqT"/>
+                                            </mask>
+                                        </variation>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1T-hG-Ity" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="87.5" y="367" width="200" height="50"/>
+                                        <color key="backgroundColor" red="0.028280675410000001" green="0.12049393360000001" blue="0.43798881769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="LW5-aM-WTm"/>
+                                            <constraint firstAttribute="width" constant="200" id="rw7-0j-4gd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                        <state key="normal" title="DONE">
+                                            <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="doneTapped:" destination="9TC-X5-iXo" eventType="touchUpInside" id="kOG-77-R9l"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="tWu-Db-47p" secondAttribute="trailing" id="ABj-gW-K8J"/>
+                                    <constraint firstItem="tWu-Db-47p" firstAttribute="leading" secondItem="1R8-xM-gDM" secondAttribute="leading" id="rzV-6T-Zwd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vRA-JY-gWl"/>
+                        <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="1R8-xM-gDM" firstAttribute="top" secondItem="vRA-JY-gWl" secondAttribute="top" id="4jZ-mw-J8q"/>
+                            <constraint firstItem="vRA-JY-gWl" firstAttribute="trailing" secondItem="1R8-xM-gDM" secondAttribute="trailing" id="4tu-sD-5ne"/>
+                            <constraint firstItem="1R8-xM-gDM" firstAttribute="leading" secondItem="vRA-JY-gWl" secondAttribute="leading" id="lni-V6-oLN"/>
+                            <constraint firstItem="vRA-JY-gWl" firstAttribute="bottom" secondItem="1R8-xM-gDM" secondAttribute="bottom" constant="250" id="qsu-wo-eP2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmTitleLb" destination="3dP-W0-faA" id="gLO-rb-LnA"/>
+                        <outlet property="doneBtn" destination="u1T-hG-Ity" id="fxk-vg-uzE"/>
+                        <outlet property="enterYourPinLb" destination="RCT-W8-6eA" id="Nmr-6f-gtX"/>
+                        <outlet property="pinTxt" destination="5f0-ad-UL4" id="3Ic-HM-VZq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oPf-Op-hwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="490" y="-344"/>
+        </scene>
+        <!--Update App View Controller-->
+        <scene sceneID="7VX-Wn-cwW">
+            <objects>
+                <viewController storyboardIdentifier="UpdateAppVC" id="Eag-fP-5Bw" customClass="UpdateAppViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="afK-ry-Aay">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APP UPDATE" lineBreakMode="wordWrap" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DJ-nV-qU6" customClass="PaymobUILabel" customModule="Paymob_Wallet" customModuleProvider="target">
+                                <rect key="frame" x="124.5" y="22" width="126" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Bod-mB-UWa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.089920051400000006" green="0.50860416890000004" blue="0.843413949" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You need to update your app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLX-Qe-EIu">
+                                <rect key="frame" x="72.5" y="156" width="230" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="F1s-c2-Pnr"/>
+                                    <constraint firstAttribute="width" constant="150" id="Z2A-MB-OjU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Z2A-MB-OjU"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bk3-G4-T5U" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                <rect key="frame" x="87.5" y="325" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.028280675410000001" green="0.12049393360000001" blue="0.43798881769999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="K9w-7z-Sfv"/>
+                                    <constraint firstAttribute="width" constant="200" id="nEi-WF-nlQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                <state key="normal" title="UPDATE">
+                                    <color key="titleColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="doneTapped:" destination="9TC-X5-iXo" eventType="touchUpInside" id="vu6-6O-YTu"/>
+                                    <action selector="updateAppTapped:" destination="Eag-fP-5Bw" eventType="touchUpInside" id="8Gl-yq-Z0x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mk6-Ku-1dk"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9DJ-nV-qU6" firstAttribute="centerX" secondItem="bk3-G4-T5U" secondAttribute="centerX" id="5SA-nP-X7s"/>
+                            <constraint firstItem="9DJ-nV-qU6" firstAttribute="centerX" secondItem="mk6-Ku-1dk" secondAttribute="centerX" id="830-Qk-hrB"/>
+                            <constraint firstItem="9DJ-nV-qU6" firstAttribute="centerX" secondItem="dLX-Qe-EIu" secondAttribute="centerX" id="B5i-lU-dlo"/>
+                            <constraint firstItem="dLX-Qe-EIu" firstAttribute="top" secondItem="9DJ-nV-qU6" secondAttribute="bottom" constant="94" id="Cbv-pe-E8W"/>
+                            <constraint firstItem="mk6-Ku-1dk" firstAttribute="bottom" secondItem="bk3-G4-T5U" secondAttribute="bottom" constant="292" id="aSH-oi-3No"/>
+                            <constraint firstItem="9DJ-nV-qU6" firstAttribute="top" secondItem="mk6-Ku-1dk" secondAttribute="top" constant="22" id="yfO-Ne-DYY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="updateAppDEscLb" destination="dLX-Qe-EIu" id="dHL-CF-3te"/>
+                        <outlet property="updateAppTitleLb" destination="9DJ-nV-qU6" id="L4I-BJ-mm0"/>
+                        <outlet property="updateBtn" destination="bk3-G4-T5U" id="qsN-qN-Z5n"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18F-0o-4Hq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1164" y="-344"/>
+        </scene>
+    </scenes>
+</document>

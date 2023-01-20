@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GE_SS_Two_Medium.otf">
+            <string>GESSTwoMedium-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Main Controller-->
+        <scene sceneID="8HY-Dm-ePv">
+            <objects>
+                <viewController storyboardIdentifier="regMain" id="pgB-GP-BiD" customClass="MainController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uwo-Ru-wlF"/>
+                        <viewControllerLayoutGuide type="bottom" id="GwD-Uf-4GV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iLZ-nu-6Qa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sign_in_logo" translatesAutoresizingMaskIntoConstraints="NO" id="U6X-qW-nSH">
+                                <rect key="frame" x="96" y="144" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="U6X-qW-nSH" secondAttribute="height" multiplier="1:1" id="4yN-8w-kLq"/>
+                                    <constraint firstAttribute="width" constant="128" id="EuY-CV-Sux"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fEo-Qx-waX">
+                                <rect key="frame" x="60.5" y="362" width="200" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HW6-Wz-L99" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="loginBtnTapped:" destination="pgB-GP-BiD" eventType="touchUpInside" id="fUe-X1-FkO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgD-bc-geY" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="60" width="200" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="regBtnTapped:" destination="pgB-GP-BiD" eventType="touchUpInside" id="LEa-1q-Bma"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="kWs-2E-4fN"/>
+                                    <constraint firstAttribute="height" constant="100" id="szg-io-Pg3"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U6X-qW-nSH" firstAttribute="top" secondItem="Uwo-Ru-wlF" secondAttribute="bottom" constant="80" id="UEa-Ip-hQS"/>
+                            <constraint firstItem="U6X-qW-nSH" firstAttribute="centerX" secondItem="iLZ-nu-6Qa" secondAttribute="centerX" id="gdi-WB-JZk"/>
+                            <constraint firstItem="fEo-Qx-waX" firstAttribute="top" secondItem="U6X-qW-nSH" secondAttribute="bottom" constant="90" id="iKf-cp-c1M"/>
+                            <constraint firstItem="U6X-qW-nSH" firstAttribute="centerX" secondItem="fEo-Qx-waX" secondAttribute="centerX" id="lSV-or-3a3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ezt-Dj-rVP"/>
+                    <connections>
+                        <outlet property="loginBtn" destination="HW6-Wz-L99" id="qgM-E8-q72"/>
+                        <outlet property="registerBtn" destination="cgD-bc-geY" id="8OS-a6-E1T"/>
+                        <outlet property="sigInImageView" destination="U6X-qW-nSH" id="W9s-jy-izy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SgY-F6-vDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-145" y="130"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Cfh-ur-Wig">
+            <objects>
+                <navigationController storyboardIdentifier="regNavigation" id="BIc-sq-peP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="oRK-le-vyX">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.0" green="0.59215686270000001" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9jb-uU-tJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594" y="130"/>
+        </scene>
+        <!--Self Reg View Controller-->
+        <scene sceneID="nBU-El-Gd7">
+            <objects>
+                <viewController storyboardIdentifier="selfReg" id="RWD-dn-MYg" customClass="SelfRegViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WgB-qK-CRo"/>
+                        <viewControllerLayoutGuide type="bottom" id="FnH-K5-9La"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tmm-ru-66G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2W-2V-Hpu">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dv-e5-N6r">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="KAT-6m-iME">
+                                                <rect key="frame" x="45" y="30" width="230" height="270"/>
+                                                <subviews>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jNA-Og-abP" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="bx4-Cw-F1q"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Middle Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uci-C1-Hrv" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="75" width="230" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="xU0-sJ-WlJ"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CGp-Zg-KQr" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="150" width="230" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="xcJ-Ay-flA"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                    </textField>
+                                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="National ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rnd-vH-FOx" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="225" width="230" height="45"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="nXA-de-K1A"/>
+                                                        </constraints>
+                                                        <nil key="textColor"/>
+                                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                    </textField>
+                                                </subviews>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yeR-75-jyG" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="59.5" y="438" width="200" height="40"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="0e6-RO-NuZ"/>
+                                                    <constraint firstAttribute="height" constant="40" id="GMe-QG-jgI"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                <state key="normal" title="Create account">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="regBtnTapped:" destination="pgB-GP-BiD" eventType="touchUpInside" id="tx5-CL-7Cr"/>
+                                                    <action selector="registerTapped:" destination="RWD-dn-MYg" eventType="touchUpInside" id="KsJ-ZB-js6"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIr-9z-1f4">
+                                                <rect key="frame" x="255" y="516" width="43" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="jWw-80-6a9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="Login">
+                                                    <color key="titleColor" red="0.1137254902" green="0.63137254899999995" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="loginTapped:" destination="RWD-dn-MYg" eventType="touchUpInside" id="ah6-Gw-Aqg"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="KAT-6m-iME" firstAttribute="leading" secondItem="4dv-e5-N6r" secondAttribute="leading" constant="45" id="426-Pa-x2Q"/>
+                                            <constraint firstItem="yeR-75-jyG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KAT-6m-iME" secondAttribute="bottom" constant="30" id="PQF-39-ARp"/>
+                                            <constraint firstItem="yeR-75-jyG" firstAttribute="centerX" secondItem="4dv-e5-N6r" secondAttribute="centerX" id="U5r-OL-bql"/>
+                                            <constraint firstAttribute="trailing" secondItem="IIr-9z-1f4" secondAttribute="trailing" constant="22" id="VIt-H6-i2P"/>
+                                            <constraint firstAttribute="trailing" secondItem="KAT-6m-iME" secondAttribute="trailing" constant="45" id="YCi-0t-hNB"/>
+                                            <constraint firstAttribute="bottom" secondItem="yeR-75-jyG" secondAttribute="bottom" constant="90" id="nsg-xn-B32"/>
+                                            <constraint firstItem="KAT-6m-iME" firstAttribute="top" secondItem="4dv-e5-N6r" secondAttribute="top" constant="30" id="pAf-Cm-NsP"/>
+                                            <constraint firstAttribute="bottom" secondItem="IIr-9z-1f4" secondAttribute="bottom" constant="22" id="uJk-Dq-EsK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4dv-e5-N6r" firstAttribute="top" secondItem="t2W-2V-Hpu" secondAttribute="top" id="HgX-rn-U3W"/>
+                                    <constraint firstItem="4dv-e5-N6r" firstAttribute="leading" secondItem="t2W-2V-Hpu" secondAttribute="leading" id="JxE-k2-4nS"/>
+                                    <constraint firstAttribute="bottom" secondItem="4dv-e5-N6r" secondAttribute="bottom" id="j0y-WO-XNb"/>
+                                    <constraint firstAttribute="trailing" secondItem="4dv-e5-N6r" secondAttribute="trailing" id="v0Y-3z-pKH"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t2W-2V-Hpu" firstAttribute="leading" secondItem="tmm-ru-66G" secondAttribute="leading" id="TAK-hw-zTc"/>
+                            <constraint firstItem="4dv-e5-N6r" firstAttribute="height" secondItem="tmm-ru-66G" secondAttribute="height" id="Y1s-D4-Ve1"/>
+                            <constraint firstItem="4dv-e5-N6r" firstAttribute="width" secondItem="tmm-ru-66G" secondAttribute="width" id="ZuP-6z-3Gf"/>
+                            <constraint firstAttribute="trailing" secondItem="t2W-2V-Hpu" secondAttribute="trailing" id="i0A-sR-Tob"/>
+                            <constraint firstItem="FnH-K5-9La" firstAttribute="top" secondItem="t2W-2V-Hpu" secondAttribute="bottom" id="tBA-96-tgV"/>
+                            <constraint firstItem="t2W-2V-Hpu" firstAttribute="top" secondItem="tmm-ru-66G" secondAttribute="top" id="wbG-Rj-rOu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="YaI-4H-PD5"/>
+                    <connections>
+                        <outlet property="firstNameTxt" destination="jNA-Og-abP" id="CYZ-bT-tzZ"/>
+                        <outlet property="lastNameTxt" destination="CGp-Zg-KQr" id="0gy-gf-ANn"/>
+                        <outlet property="loginBtn" destination="IIr-9z-1f4" id="kfz-Sc-T3b"/>
+                        <outlet property="middleNameTxt" destination="uci-C1-Hrv" id="uMk-Yf-401"/>
+                        <outlet property="nationalIdTxt" destination="Rnd-vH-FOx" id="Lrc-wB-jwt"/>
+                        <outlet property="registerBtn" destination="yeR-75-jyG" id="6rI-0g-yFX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lED-w4-X5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="130"/>
+        </scene>
+        <!--Final Reg Controller-->
+        <scene sceneID="Irh-0d-RDJ">
+            <objects>
+                <viewController storyboardIdentifier="finalReg" id="pcg-cx-NgD" customClass="FinalRegController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z9p-s7-GOf"/>
+                        <viewControllerLayoutGuide type="bottom" id="SHW-0C-9jP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oIP-mG-XhI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KB4-LD-mgS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="neB-r2-B6E">
+                                        <rect key="frame" x="45" y="30" width="230" height="120"/>
+                                        <subviews>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3yb-2k-aZs" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="230" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="boq-ay-IJ8"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AAb-IX-PyA" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="75" width="230" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="04g-iA-hyy"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Date of birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BmU-Fq-4vE" customClass="PaymobUITextField" customModule="Paymob_Wallet" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="120" width="230" height="0.0"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fs-Sc-Ym5" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="59.5" y="498" width="200" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="SO1-N5-7nt"/>
+                                            <constraint firstAttribute="width" constant="200" id="oRc-R5-hT2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="GESSTwoMedium-Medium" family="GE SS Two" pointSize="15"/>
+                                        <state key="normal" title="Create account">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="createAccountTapped:" destination="pcg-cx-NgD" eventType="touchUpInside" id="r5N-xY-gf0"/>
+                                            <action selector="regBtnTapped:" destination="pgB-GP-BiD" eventType="touchUpInside" id="dZx-ma-xN9"/>
+                                            <action selector="registerTapped:" destination="RWD-dn-MYg" eventType="touchUpInside" id="ugC-k0-eoV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="neB-r2-B6E" secondAttribute="trailing" constant="45" id="63k-8E-lWE"/>
+                                    <constraint firstItem="4fs-Sc-Ym5" firstAttribute="centerX" secondItem="KB4-LD-mgS" secondAttribute="centerX" id="9XB-bZ-JUY"/>
+                                    <constraint firstItem="neB-r2-B6E" firstAttribute="leading" secondItem="KB4-LD-mgS" secondAttribute="leading" constant="45" id="dwb-my-zg5"/>
+                                    <constraint firstItem="neB-r2-B6E" firstAttribute="top" secondItem="KB4-LD-mgS" secondAttribute="top" constant="30" id="ik3-xM-Rrs"/>
+                                    <constraint firstItem="4fs-Sc-Ym5" firstAttribute="top" relation="greaterThanOrEqual" secondItem="neB-r2-B6E" secondAttribute="bottom" constant="50" id="qBz-j0-aWz"/>
+                                    <constraint firstAttribute="bottom" secondItem="4fs-Sc-Ym5" secondAttribute="bottom" constant="30" id="qcE-NB-Ogc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="KB4-LD-mgS" secondAttribute="bottom" id="DsC-VG-DsD"/>
+                            <constraint firstItem="KB4-LD-mgS" firstAttribute="top" secondItem="oIP-mG-XhI" secondAttribute="top" id="Q71-Ui-Y7B"/>
+                            <constraint firstItem="KB4-LD-mgS" firstAttribute="leading" secondItem="oIP-mG-XhI" secondAttribute="leading" id="dim-qG-fbl"/>
+                            <constraint firstAttribute="trailing" secondItem="KB4-LD-mgS" secondAttribute="trailing" id="e8d-M4-RfF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressTxt" destination="AAb-IX-PyA" id="A3U-TG-ojc"/>
+                        <outlet property="dateOfBirthTxt" destination="BmU-Fq-4vE" id="1dv-ZI-TY4"/>
+                        <outlet property="phoneNumberTxt" destination="3yb-2k-aZs" id="gnx-ac-CCE"/>
+                        <outlet property="registerBtn" destination="4fs-Sc-Ym5" id="8xX-Lc-gqc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kpc-EF-xtW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2104.8000000000002" y="120.98950524737631"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kHR-mM-ZHW">
+            <objects>
+                <navigationController storyboardIdentifier="regNav" automaticallyAdjustsScrollViewInsets="NO" id="7yX-vW-cCM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="E8q-xa-suB">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="pgB-GP-BiD" kind="relationship" relationship="rootViewController" id="Rfl-DE-tka"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xlL-8k-nei" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959.20000000000005" y="129.98500749625188"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sign_in_logo" width="326" height="440"/>
+    </resources>
+</document>

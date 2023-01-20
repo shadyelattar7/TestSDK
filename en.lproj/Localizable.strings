@@ -1,0 +1,357 @@
+/* 
+  Localizable.strings
+  Paymob Wallet
+
+  Created by mahmoud on 10/24/17.
+  Copyright © 2017 mahmoud. All rights reserved.
+*/
+
+
+/* auth*/
+"showAll" = "Show All";
+"HalanServices" = "Halan Financial Services";
+"pleaseEnterYourPin" = "Please Enter Your Pin";
+"login" = "Login";
+"register" = "Register";
+"poweredBy" = "Powered By:";
+"verificationCode" = "Verification Code";
+"youWillRecieveSms" = "You will recieve a SMS shortly containing the verification code to mobile number ";
+"sendVerificationCode" = "Send Verification Code";
+"resendSms" = "Resend SMS";
+"submit" = "Submit";
+"howToRegTitle" = "How to Register";
+"firstStep" = "1.Visit the nearest Branch.";
+"secondStep" = "2.Fill the application and provide national ID copy.";
+"thirdStep" = "3.You will receive SMS with Application link and description.";
+"fourthStep" = "4.On the App., Enter activation code and your preferred MPIN.";
+"fifthStep" = "5.Enjoy the service.";
+"bySubmittingYourMob" = "By submitting your mobile number you are accepting the app's";
+"mobileNumber" = "Mobile Number";
+"reMobileNumber" = "Mobile Number";
+"termsAndConditionTitle" = "Terms And Conditions";
+"oldPinPLaceHolder" = "Old Pin";
+
+"howToReg" = "Registeration Steps";
+"regFirstStep" = "1.Visit The Nearest Branch";
+"regSecondStep" = "2.Fill the application and provide national ID copy.";
+"regThirdStep" = "3.You will receive SMS with Application link and description.";
+"regForthStep" = "4.On the App., Enter activation code and your preferred MPIN.";
+"regFifthStep" = "5.Enjoy the service.";
+
+"changePin" = "Change PIN";
+"setPin" = "Set PIN";
+"newPin" = "New PIN";
+"confirmPin" = "Confirm PIN";
+"pin6Digits" = "Pin must be 6 digits.";
+"signInLogo" = "sign_in_logo_en";
+"firstName" = "First name";
+"middleName" = "Middle name";
+"lastName" = "Last name";
+"nationalId" = "National ID Number";
+"nationalIdTop" = "Bill Reference";
+"address" = "Address";
+"pinMsg" = "Please note that all pin input can only be in English numbers (i.e. 123456)";
+"throttleMessage" = "Please try again after 10 seconds";
+/*navigation*/
+
+"walletBalance" = "Wallet Balance";
+"egp" = "EGP";
+"send" = "Send";
+"pay" = "Pay";
+"load" = "Cash In/Out";
+"balance" = "Wallet Balance";
+"p2p" = "Peer to Peer";
+"bills" = "Bill Payments";
+"topUp" = "Airetime Top-up";
+"qrCode" = "Halan Cash (QR) Code";
+"myWallet" = "Cash In/Out";
+"eCommere" = "E-commerce";
+"navIcon" = "navIcon_en";
+"backTitle" = "back_en";
+"currentBalance" = "Wallet Balance:";
+"homeSend" = "Send";
+"homePay" = "Pay";
+"homeCashOut" = "Cash Out";
+"homeCashIn" = "Cash In";
+"homePastTransactions" = "Past Transactions";
+"homeInstallements" = "Pay Installements";
+"homeBills" = "Bills";
+"homeMobileAndInternet" = "Mobile & Internet";
+"homeShoppingCards" = "Shopping Cards";
+
+
+/*pay*/
+"electronicUseOnly" = "ELECTRONIC USE ONLY";
+"newCard" = "Generate Card";
+"amount" = "Amount";
+"cancel" = "Cancel";
+"next" = "Next";
+"featured" = "FEATURED";
+"reject" = "Reject";
+"store" = "Store";
+"services" = "Services";
+"online" = "Online";
+"brandCode" = "Brand Code";
+"deleteAll" = "Delete All";
+"generate" = "Generate";
+"generateCard" = "Generate Card";
+"validUntil" = "Valid Until ";
+"card" = "Card";
+"orderNo" = "Order No.";
+"payBulkBill" = "Pay Bulk Bills";
+"cardAmount" = "Card Amount?";
+"requestNewCard" = "Request a new card";
+"raseedy" = "Halan Cash";
+"cardMessage" = "Copy this card number to use on an e-commerce website";
+"vcnCard" = "cardEng";
+
+"vcnTitle" = "New Virtual Card Balance";
+"cardBalance" = "Card Balance";
+"vcnSubTitle" = "Enter the amount you wish to charge";
+
+"payByQrTitle" = "Pay Using QR Code";
+"payByQrSubTitle" = "pay by scanning the QR Code";
+"payByQrOrManually" = "Or you can enter the info manually";
+"payByQrBtn" = "Pay Using QR";
+"payManuallyBtn" = "Enter the Info Manually";
+"paymentInfo" = "Transaction Info";
+"paymentInfoEntry" = "Enter the following Information to submit your transaction";
+"payByScanningQR" = "Pay by scanning QR Code";
+"disclaimer" = "You can only add one card per month";
+"scanDetails" = "Details";
+"tips" = "Tips";
+"convenienceFees" = "Convenience Fee";
+"Card details" = "Card details";
+"Card number" = "Card number";
+"Expire date" = "Expire date";
+
+
+/*map*/
+"map" = "Map";
+
+/*backgroundTasks*/
+"confirmTitle" = "Confirm PIN";
+"pin" = "PIN";
+"enterYourPin" = "Enter Halan Cash Pin";
+"done" = "Done";
+"updateAppTitle" = "Update App";
+"updateAppDescription" = "Please update the application to continue using it";
+"update" = "Update";
+"updateBtn" = "Update";
+
+/*load*/
+"youCanCashIn" = "You can link you SAIB bank debit/credit card to charge your wallet’s balance. Please visit any Tasaheel branch (16134) or SAIB bank branch to link you debit/credit card to the wallet. You can also call the SAIB bank call center to link your debit/credit card without needing to move.";
+"cashIn" = "CASH IN";
+"mapInfo" = "You can go to any Tasaheel branch to cash in/out. Please call 16134 for more information on the nearest Tasaheel branch and any questions you might have.";
+"infoMaps" = "Info/Maps";
+"avl" = "Credit/Debit Card";
+
+/*send*/
+"recipient" = "Recipient Mobile Number";
+"enterRecipient" = "Enter Recipient Mobile Number";
+"chooseContact" = "Choose Contact";
+"recents" = "Recents";
+"(optional)" = "(Optional)";
+"message" = "Message";
+"writeMessage" = "Write a message";
+
+"sendAmountTitle" = "Amount To Send";
+"sendAmountSubTitle" = "Enter the amount you want to send";
+
+/*history*/
+"history" = "History";
+"all" = "All";
+"recieved" = "Received";
+"sent" = "Sent";
+"pending" = "Pending";
+"date" = "Date";
+"type" = "Type";
+"transaction" = "Trans";
+"participant" = "Participant";
+"status" = "Status";
+"successfull" = "Successfull";
+"failure" = "Failure";
+"transactionID" = "Transaction ID";
+"export" = "Export";
+
+/*settings*/
+"resetPin" = "Change Pin";
+"settings" = "Settings";
+"oldPin" = "Old PIN";
+"changeMPin" = "Change Pin";
+
+/*confirmation*/
+"slideRight" = "SLIDE RIGHT TO CONFIRM";
+"confirmPayment" = "Confirm Payment";
+"totalDeductedAmount" = "Total Deducted Amount";
+"forService" = "for Service";
+"enterPinLab" = "Enter Pin";
+"reviewTransaction" = "Review Transaction";
+"recepientInfoHeaderSend" = "Recepient Info";
+"transactionDetails" = "Transaction Details";
+"transactionType" = "Transaction Type";
+"transactionAmount" = "Amount";
+"transactionFees" = "Fees";
+"transactionTotalAmount" = "Total Amount";
+"continue" = "Continue";
+"enterPinToContinue" = "Please enter your MPin to finish your transaction";
+
+"messageLabel" = "recepient message";
+"transactionResponseInfo" = "Transaction Info";
+"transactionResponseInfoTime" = "Date & Time";
+"transactionResponseInfoTxn" = "Transaction Number";
+"transactionResponseInfoReference" = "Reference Number";
+"vcnInfo" = "VCN Info";
+"vcnNumber" = "Card Number";
+"vcnExpiry" = "Expiry Date";
+"doneSuceesfully" = "Successful";
+"Pay installment successful" = "Successful Installment Pay";
+"donefailed" = "failed";
+"serviceProvider" = "Service Provider";
+
+/*notification*/
+"notifications" = "Notifications";
+"notification" = "Notification";
+"merchant" = "Merchants";
+"dueDate" = "Due Date";
+"verify" = "Verify";
+"accept" = "Accept";
+"youWantToDeleteAll" = "Are you sure you want to delete all";
+"Warning" = "Warning";
+"justNow" = "just Now";
+"hoursAgo" = "Hours Ago";
+"minutesAgo" = "Minutes Ago";
+"since" = "";
+
+/*cashout*/
+"cashout" = "Cash Out";
+"cashin" = "Cash In";
+"youCanCash" = "You can generate a Verification Code and use it to:";
+"cashoutFirstStep" = "1. Cash out from any supported ATM";
+"cashoutSecondStep" = "2. Cash out from any Tasaheel branch";
+"cashoutThirdStep" = "3. The Verification Code will be Valid for: 5 minutes";
+"cashoutFourthStep" = "4. Enter the Verification Code once prompted and complete your transaction";
+"generateOtp" = "Generate OTP";
+"cashoutTitle" = "Amount you want to withdraw";
+"cashoutSubTitle" = "enter the amount you want to withdraw";
+"cashinTitle" = "Amount you want to Deposit";
+"cashinSubTitle" = "Enter the amount you want to deposit";
+"cashoutOtpTitle" = "One Time Password";
+"cashoutOtpSubTitle" = "Enter the OTP into the Atm to complete the transaction";
+"willExpireIn" = "will Expire in";
+"cashoutTimeOutTitle" = "The OTP has Expired";
+"cashoutTimeOutSubTitle" = "Your OTP has expired, please generate a new one";
+"otpRetry" = "request new OTP";
+
+/*merchants*/
+"edit" = "Edit";
+"delete" = "Delete";
+"add" = "Add";
+
+"merchantName" = "Merchant Name";
+"merchantCode" = "Merchant Code";
+"addMerchant" = "Add Merchant";
+"enterMerchantDetails" = "Enter Merchant Details";
+"updateMerchant" = "Update Merchant";
+"update" = "Update";
+"updateMerchantDetails" = "Update Merchant Details";
+
+/*profile*/
+"profile" = "Profile";
+"updateBalance" = "Update Balance";
+"editProfile" = "Edit Profile";
+"modifyName" = "Modify Name";
+"enterYourName" = "Enter Name";
+"editBtn" = "Edit data";
+"changePass" = "Change password";
+"changePic" = "Change Profile Picture";
+"rateApp" = "Rate the App";
+"save" = "Save";
+"confirmBtn" = "Confirm";
+"male" = "Male";
+"female" = "Female";
+"myName" = "Name";
+"profilePersonnelInfo" = "Personnel Info";
+"profileNationalID" = "National ID";
+"profileGender" = "Gender";
+"profileDOB" = "Date Of Birth";
+"profileAddress" = "Address";
+"profileMail" = "E-Mail";
+"profileAccountInfo" = "Account Info";
+"profileName" = "Name";
+"profileDisplayPicture" = "Display Picture";
+"profilePin" = "change PIN";
+"ProfileEdit" = "Edit Profile";
+"ProfileLogOut" = "Log Out";
+
+/*util*/
+"loading" = "Loading...";
+"success" = "Success";
+"error" = "Error";
+"ok" = "OK";
+"close" = "Close";
+/*tranaction*/
+"billInqiure" = "Bill Inquiry";
+"payBill" = "Pay Bill";
+"pay installment" = "Installment Pay";
+"topUp" = "Installment Collection";
+"pTopUp" = "Pay Top-up";
+"vcn" = "VCN";
+
+/*drawer*/
+"dashboard" = "Dashboard";
+"logout" = "Logout";
+
+/*terms and conditions*/
+
+"termsAndConditionsTitle" = "Terms and Conditions of using Smart Wallet";
+"termsAndConditionsBody" = "Client's signature on the service request and submitting it to the bank's brnch is considered a final binding contract between the bank and client, hence client should read and understand all terms and consitions of the service accurately and thoroughly before signing.";
+
+/*register*/
+"createNewAccount" = "Create new account";
+
+
+/*top up*/
+"tsaheel_logo" = "tasaheel_en";
+"inquire" = "Inquire";
+"tsaheel" = "Tasaheel";
+"mashrooy" = "Mashroey";
+"installementValue" = "Installement Value";
+"fee" = "Fee";
+"InstallmentId" = "Installment Id";
+"topUpTitle" = "Pay Installements";
+"chooseTopUp" = "Choose service type";
+"topUpInquirySubTitle" = "Please enter the national id associated with tasaheel";
+"pleaseEnter" = "Please enter your";
+"linkedTo" = "which is linked to ";
+
+/*contact us*/
+
+"contactUs" = "Contact Us";
+"inTouch" = "GET IN TOUCH";
+"callUs" = "Call us now";
+"or" = "or";
+"typeYourMessage" = "Type your message here";
+"sendFeedback" = "Send Feedback";
+"toLoadYour" = "To load your Halan Cash wallet or withdraw the cash you need anytime, anywhere go to the nearest ATM or one of 60,000+ Aman outlets.";
+
+//Unregister
+"unregister" = "Unregister";
+"sendVerification" = "Send Verification";
+"verification" = "Verification";
+
+//Branches
+"branches" = "Find us";
+
+
+// Rate
+"Rate Transaction" = "Rate Transaction";
+"Rate" = "Rate";
+"Send Feedback" = "Feedback";
+"Rate and Feedback" = "Add Feedback";
+"Type your message here" = "Type your message here";
+
+//Validation
+"11DigitValidation" = "Number must be 11 digits";
+"largerThanBalanceValidation" = "This Amount is larger than your balance";
+"serverError" = "Something went wrong, please try again later";

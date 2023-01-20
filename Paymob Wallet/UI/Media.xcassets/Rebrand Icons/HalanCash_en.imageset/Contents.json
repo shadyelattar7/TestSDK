@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "HalanCash_ENG_Appicon 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "HalanCash_ENG_Appicon 1@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "HalanCash_ENG_Appicon 1@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

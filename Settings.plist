@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>primaryColor</key>
+	<string>0097E1</string>
+	<key>secondaryColor</key>
+	<string>706f6f</string>
+	<key>bottomBarColor</key>
+	<string>e2e2e2</string>
+	<key>debug</key>
+	<string>true</string>
+	<key>debugURL</key>
+	<string>https://stagingwallet.paymobsolutions.com:8080</string>
+	<key>productionURL</key>
+	<string>https://wallets-portal.paymobsolutions.com</string>
+	<key>appAcc</key>
+	<string></string>
+	<key>appAccStaging</key>
+	<string>RASEEDY</string>
+	<key>appAccProduction</key>
+	<string>RASEEDY</string>
+	<key>appVersion</key>
+	<integer>1</integer>
+	<key>storeId</key>
+	<string>1330992477</string>
+	<key>modules</key>
+	<dict/>
+	<key>webView</key>
+	<string></string>
+	<key>webViewProduction</key>
+	<string>https://webview.paymobsolutions.com/index.html?provider=raseedy_wallet&amp;lang=</string>
+	<key>webViewStaging</key>
+	<string>https://stg-webview.paymobsolutions.com/index.html?provider=raseedy_wallet&amp;lang=</string>
+	<key>normal</key>
+	<string>/NewTxn/ServiceSelector</string>
+	<key>secure</key>
+	<string>/NewTxn/SServiceSelector</string>
+</dict>
+</plist>

@@ -1,0 +1,388 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.5)
+/Applications/Xcode Wallet.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
+iPhoneOS15.5.sdk
+/Users/al-attar/Library/Developer/Xcode/DerivedData/HalanFramework-esxuoaxvtzllwzhhrymiiajbsghk/Build/Intermediates.noindex/ArchiveIntermediates/HalanFramework/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/RxKeyboard.build/DerivedSources/RxKeyboard_vers.c
+/Users/al-attar/Desktop/DemoSDK/TestNewSDK/HalanFramework/Pods
+__OBJC_METACLASS_RO_$_PodsDummy_RxKeyboard
+__OBJC_CLASS_RO_$_PodsDummy_RxKeyboard
+/Users/al-attar/Desktop/DemoSDK/TestNewSDK/HalanFramework/Pods/Target Support Files/RxKeyboard/RxKeyboard-dummy.m
+_$s10RxKeyboardAAC8instance_WZ
+_$s10RxKeyboardAACABycfc
+_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVSo6CGRectVcfU_
+_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtAeF_SbAGt_AEtcfU0_
+_$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingt_tcfU1_
+_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVAE13visibleHeight_Sb9isShowingt_tcfU2_
+_$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatVcfU3_
+_$sSo6CGRectVABs5Error_pIegydzo_A2BsAC_pIegnrzo_TR026$s10RxKeyboardAACABycfcSo6A8VADcfU5_Tf3nnpf_n
+_$sSo6CGRectVABs5Error_pIegydzo_A2BsAC_pIegnrzo_TR026$s10RxKeyboardAACABycfcSo6A8VADcfU7_Tf3nnpf_n
+_$sSo22UIPanGestureRecognizerCSo6CGRectVAbDs5Error_pIeggyodzo_AbdB_ADtsAE_pIegnnrzo_TR027$s10RxKeyboardAACABycfcSo22abc5C_So6D13VtAD_AFtcfU8_Tf3nnnpf_n
+_$s10RxKeyboardAACABycfc0A5Swift10ObservableCySo6CGRectVGSo22UIPanGestureRecognizerC_AGtcfU9_
+_$sSo22UIPanGestureRecognizerCSo6CGRectV7RxSwift10ObservableCyADGs5Error_pIeggyozo_AB_ADtAHsAI_pIegnrzo_TR04$s10e27KeyboardAACABycfc0A5Swift10g5CySo6d6VGSo22abC10C_AGtcfU9_Tf3nnpf_n
+_$s10RxKeyboardAACABycfcTo
+_$s10RxKeyboardAACfETo
+_$s10RxKeyboardAACAA0aB4TypeA2aCP5frame0A5Cocoa14SharedSequenceVyAF21DriverSharingStrategyVSo6CGRectVGvgTW
+_$s10RxKeyboardAACAA0aB4TypeA2aCP13visibleHeight0A5Cocoa14SharedSequenceVyAF21DriverSharingStrategyV12CoreGraphics7CGFloatVGvgTW
+_$s10RxKeyboardAACAA0aB4TypeA2aCP21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAF21DriverSharingStrategyV12CoreGraphics7CGFloatVGvgTW
+_$s10RxKeyboardAACAA0aB4TypeA2aCP8isHidden0A5Cocoa14SharedSequenceVyAF21DriverSharingStrategyVSbGvgTW
+_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtFTo
+_$s10RxKeyboardAAC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureD0C_AFtFTo
+_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
+_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
+_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8UIWindowC_Tg5
+_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtFTf4nnd_n
+__swift_FORCE_LOAD_$_swiftCompatibility50
+__swift_FORCE_LOAD_$_swiftCompatibility51
+__swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements
+__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency
+_$sSo6CGRectVwCP
+___swift_noop_void_return
+___swift_memcpy32_8
+_$sSo6CGRectVwet
+_$sSo6CGRectVwst
+_$sSo6CGRectVMa
+___swift_instantiateConcreteTypeFromMangledName
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGACyxq_GAA0cD15ConvertibleTypeAAWl
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGMa
+_$sSo6CGRectVABSQ12CoreGraphicsWl
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGACyxq_GAA0cD15ConvertibleTypeAAWl
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGACyxq_GAA0cD15ConvertibleTypeAAWlTm
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGMa
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtGACyxq_GAA0cD15ConvertibleTypeAAWl
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGACyxq_GAA0cD15ConvertibleTypeAAWlTm
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtGMa
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGMaTm
+_$s12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtMa
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGACyxq_GAA0cD15ConvertibleTypeAAWl
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGMa
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGMaTm
+_$sSo20NSNotificationCenterCMa
+_$s10RxKeyboardAACABycfcSo6CGRectV10Foundation12NotificationVcfU4_TA
+_$s10Foundation12NotificationVSo6CGRectVs5Error_pIegndzo_AcEsAF_pIegnrzo_TRTA
+_$s7RxSwift10ObservableCy10Foundation12NotificationVGACyxGAA0C4TypeAAWl
+_$sSo6CGRectVABSQ12CoreGraphicsWlTm
+_$s7RxSwift10ObservableCy10Foundation12NotificationVGMa
+_$s7RxSwift10ObservableCySo6CGRectVGACyxGAA0C4TypeAAWl
+_$s7RxSwift10ObservableCySo6CGRectVGMa
+_$s7RxSwift10ObservableCy10Foundation12NotificationVGMaTm
+_$sSo22UIPanGestureRecognizerCMa
+_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGACyxG0A5Swift14ObservableTypeAAWl
+_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGMa
+_$s7RxSwift10ObservableCySo6CGRectVGACyxGAA0C15ConvertibleTypeAAWl
+_$s7RxSwift10ObservableCySo22UIPanGestureRecognizerC_So6CGRectVtGACyxGAA0C4TypeAAWl
+_$s7RxSwift10ObservableCySo22UIPanGestureRecognizerC_So6CGRectVtGMa
+_$sSo22UIPanGestureRecognizerC_So6CGRectVtMa
+_$s7RxSwift10ObservableCyACySo6CGRectVGGACyxGAA0C4TypeAAWl
+_$s7RxSwift10ObservableCyACySo6CGRectVGGMa
+___swift_destroy_boxed_opaque_existential_1
+___swift_project_boxed_opaque_existential_1
+_$sSo13UIApplicationCMa
+_$s10RxKeyboardAACABycfcyyt_tcfU10_TA
+_$sIeg_ytIegn_TRTA
+_$s7RxCocoa12ControlEventVyytGACyxG0A5Swift14ObservableTypeAAWl
+_$s7RxCocoa12ControlEventVyytGMa
+_$sSo8UIWindowCMa
+_$sypSgWOh
+_$ss11AnyHashableVWOh
+_$sSo7NSValueCMa
+_$sSo20NSNotificationCenterCMaTm
+_$sypWOc
+_$ss11AnyHashableVWOc
+___swift_memcpy16_8
+_$sSo6CGSizeVwet
+_$sSo6CGSizeVwst
+_$sSo6CGSizeVMa
+_$sSo7CGPointVMa
+_$sSo6CGRectVMaTm
+_$sSo7CGPointVwst
+_$s10Foundation12NotificationVSo6CGRectVs5Error_pIegndzo_AcEsAF_pIegnrzo_TRTA.10
+_$s10RxKeyboardAACABycfcSo6CGRectV10Foundation12NotificationVcfU6_TA
+_$sSo7CGPointVwet
+_$s10RxKeyboardAAC8instance_Wz
+_$s10RxKeyboardAAC13panRecognizer33_87309AF2E9C8A80D0DE5BEB75CC2B91FLLSo012UIPanGestureD0CvpWvd
+_symbolic $s10RxKeyboard0aB4TypeP
+_$s10RxKeyboard0aB4Type_pMF
+_$s10RxKeyboardMXM
+_$s10RxKeyboardAAC10disposeBag33_87309AF2E9C8A80D0DE5BEB75CC2B91FLL0A5Swift07DisposeD0CvpWvd
+__METACLASS_DATA__TtC10RxKeyboard10RxKeyboard
+__INSTANCE_METHODS__TtC10RxKeyboard10RxKeyboard
+__IVARS__TtC10RxKeyboard10RxKeyboard
+__DATA__TtC10RxKeyboard10RxKeyboard
+_symbolic So8NSObjectC
+_$s10RxKeyboardAACMf
+_symbolic _____ 10RxKeyboardAAC
+_symbolic _____y__________G 7RxCocoa14SharedSequenceV AA21DriverSharingStrategyV So6CGRectV
+_symbolic _____y__________G 7RxCocoa14SharedSequenceV AA21DriverSharingStrategyV 12CoreGraphics7CGFloatV
+_symbolic _____y_____SbG 7RxCocoa14SharedSequenceV AA21DriverSharingStrategyV
+_symbolic _____ 7RxSwift10DisposeBagC
+_symbolic So22UIPanGestureRecognizerC
+_$s10RxKeyboardAACMF
+__CATEGORY_INSTANCE_METHODS__TtC10RxKeyboard10RxKeyboard_$_RxKeyboard
+__PROTOCOL_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_UIGestureRecognizerDelegate
+__CATEGORY_PROTOCOLS__TtC10RxKeyboard10RxKeyboard_$_RxKeyboard
+__CATEGORY__TtC10RxKeyboard10RxKeyboard_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftUIKit_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftDarwin_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftFoundation_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftDispatch_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCoreImage_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftMetal_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftFileProvider_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftDataDetection_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftWebKit_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCompatibility50_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCompatibility51_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCompatibilityDynamicReplacements_$_RxKeyboard
+__swift_FORCE_LOAD_$_swiftCompatibilityConcurrency_$_RxKeyboard
+_$sSo6CGRectVWV
+_$sSoMXM
+_$sSo6CGRectVMn
+_$sSo6CGRectVMf
+_$sSo6CGRectVML
+_symbolic _____ So6CGRectV
+_$sSo6CGRectVMB
+_symbolic _____ So7CGPointV
+_symbolic _____ So6CGSizeV
+_$sSo6CGRectVMF
+_symbolic _____y_____G 7RxRelay08BehaviorB0C So6CGRectV
+_$s7RxRelay08BehaviorB0CySo6CGRectVGMD
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGMD
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGACyxq_GAA0cD15ConvertibleTypeAAWL
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGML
+_$sSo6CGRectVABSQ12CoreGraphicsWL
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGMD
+_symbolic _____13visibleHeight_Sb9isShowingt 12CoreGraphics7CGFloatV
+_$s12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtMD
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGACyxq_GAA0cD15ConvertibleTypeAAWL
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGML
+_symbolic _____y__________13visibleHeight_Sb9isShowingtG 7RxCocoa14SharedSequenceV AA21DriverSharingStrategyV 12CoreGraphics7CGFloatV
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtGMD
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtGACyxq_GAA0cD15ConvertibleTypeAAWL
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtGML
+_$s12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtML
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGMD
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGACyxq_GAA0cD15ConvertibleTypeAAWL
+_$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGML
+_$sSo20NSNotificationCenterCML
+_symbolic SS
+_symbolic ________________pIegndzo_ 10Foundation12NotificationV So6CGRectV s5ErrorP
+_symbolic _____y_____G 7RxSwift10ObservableC 10Foundation12NotificationV
+_$s7RxSwift10ObservableCy10Foundation12NotificationVGMD
+_$s7RxSwift10ObservableCy10Foundation12NotificationVGACyxGAA0C4TypeAAWL
+_$s7RxSwift10ObservableCy10Foundation12NotificationVGML
+_symbolic _____y_____G 7RxSwift10ObservableC So6CGRectV
+_$s7RxSwift10ObservableCySo6CGRectVGMD
+_$s7RxSwift10ObservableCySo6CGRectVGACyxGAA0C4TypeAAWL
+_$s7RxSwift10ObservableCySo6CGRectVGML
+_$sSo22UIPanGestureRecognizerCML
+_symbolic _____ySo22UIPanGestureRecognizerCG 7RxCocoa12ControlEventV
+_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGMD
+_symbolic So22UIPanGestureRecognizerC______t So6CGRectV
+_$sSo22UIPanGestureRecognizerC_So6CGRectVtMD
+_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGACyxG0A5Swift14ObservableTypeAAWL
+_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGML
+_$s7RxSwift10ObservableCySo6CGRectVGACyxGAA0C15ConvertibleTypeAAWL
+_symbolic _____ySo22UIPanGestureRecognizerC______tG 7RxSwift10ObservableC So6CGRectV
+_$s7RxSwift10ObservableCySo22UIPanGestureRecognizerC_So6CGRectVtGMD
+_$s7RxSwift10ObservableCySo22UIPanGestureRecognizerC_So6CGRectVtGACyxGAA0C4TypeAAWL
+_$s7RxSwift10ObservableCySo22UIPanGestureRecognizerC_So6CGRectVtGML
+_$sSo22UIPanGestureRecognizerC_So6CGRectVtML
+_symbolic _____yAAy_____GG 7RxSwift10ObservableC So6CGRectV
+_$s7RxSwift10ObservableCyACySo6CGRectVGGMD
+_symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 7RxSwift10ObservableC So6CGRectV
+_$ss23_ContiguousArrayStorageCy7RxSwift10ObservableCySo6CGRectVGGMD
+_$s7RxSwift10ObservableCyACySo6CGRectVGGACyxGAA0C4TypeAAWL
+_$s7RxSwift10ObservableCyACySo6CGRectVGGML
+_symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 7RxRelay08BehaviorE0C So6CGRectV
+_$ss23_ContiguousArrayStorageCy7RxRelay08BehaviorE0CySo6CGRectVGGMD
+_$sSo13UIApplicationCML
+_symbolic Ieg_
+_symbolic _____yytG 7RxCocoa12ControlEventV
+_$s7RxCocoa12ControlEventVyytGMD
+_$s7RxCocoa12ControlEventVyytGACyxG0A5Swift14ObservableTypeAAWL
+_$s7RxCocoa12ControlEventVyytGML
+_$sSo8UIWindowCML
+_symbolic ypSg
+_$sypSgMD
+_$sSo7NSValueCML
+_$sSo6CGSizeVWV
+_$sSo6CGSizeVMn
+_$sSo6CGSizeVMf
+_$sSo6CGSizeVML
+_$sSo7CGPointVWV
+_$sSo7CGPointVMn
+_$sSo7CGPointVMf
+_$sSo7CGPointVML
+_$sSo7CGPointVMB
+_symbolic _____ 12CoreGraphics7CGFloatV
+_$sSo7CGPointVMF
+_$sSo6CGSizeVMB
+_$sSo6CGSizeVMF
+___swift_reflection_version
+__PROTOCOL_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_REFERENCE_$_NSObject
+__PROTOCOL_PROTOCOLS_UIGestureRecognizerDelegate
+__PROTOCOL_INSTANCE_METHODS_OPT_UIGestureRecognizerDelegate
+__PROTOCOL_METHOD_TYPES_UIGestureRecognizerDelegate
+__PROTOCOL_INSTANCE_METHODS_NSObject
+__PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__PROTOCOL_PROPERTIES_NSObject
+__PROTOCOL_METHOD_TYPES_NSObject
+_objc_classes_$s10RxKeyboardAACN
+_objc_categories
+Apple clang version 13.1.6 (clang-1316.0.20.12)
+-private-discriminator _87309AF2E9C8A80D0DE5BEB75CC2B91F
+<swift-imported-modules>
+Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+/Users/al-attar/Desktop/DemoSDK/TestNewSDK/HalanFramework/Pods/RxKeyboard/Sources/RxKeyboard/RxKeyboard.swift
+$sSo6CGRectVMa
+<compiler-generated>
+$sSo6CGSizeVwst
+$sSo6CGSizeVwet
+__swift_memcpy16_8
+$ss11AnyHashableVWOc
+$sypWOc
+$sSo20NSNotificationCenterCMa
+$ss11AnyHashableVWOh
+$sypSgWOh
+$s7RxCocoa12ControlEventVyytGACyxG0A5Swift14ObservableTypeAAWl
+$sIeg_ytIegn_TRTA
+$sIeg_ytIegn_TR
+objectdestroy.15
+$s10RxKeyboardAACABycfcyyt_tcfU10_TA
+$s10RxKeyboardAACABycfcyyt_tcfU10_
+first.get
+$sSayxGSlsSly7ElementQz5IndexQzcirTWSo8UIWindowC_Tg5
+$sSayxSicirSo8UIWindowC_Tg5
+$sSayxSicigSo8UIWindowC_Tg5
+$sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtFSo8UIWindowC_Tg5
+$ss12_ArrayBufferV37_checkInoutAndNativeTypeCheckedBounds_03wasfgH0ySi_SbtFSo8UIWindowC_Tg5
+Swift runtime failure: Index out of range
+$sSa11_getElement_20wasNativeTypeChecked22matchingSubscriptCheckxSi_Sbs16_DependenceTokenVtFSo8UIWindowC_Tg5
+$ss12_ArrayBufferV7_natives011_ContiguousaB0VyxGvgSo8UIWindowC_Tg5
+$sSa29_hoistableIsNativeTypeCheckedSbyFSo8UIWindowC_Tg5
+$ss12_ArrayBufferV32arrayPropertyIsNativeTypeCheckedSbvgSo8UIWindowC_Tg5
+$ss12_ArrayBufferV20_isNativeTypeCheckedSbvgSo8UIWindowC_Tg5
+$sSayxGSlsSl8endIndex0B0QzvgTWSo8UIWindowC_Tg5
+$sSa8endIndexSivgSo8UIWindowC_Tg5
+$sSayxGSlsSl10startIndex0B0QzvgTWSo8UIWindowC_Tg5
+$sSa10startIndexSivgSo8UIWindowC_Tg5
+$sSa9_getCountSiyFSo8UIWindowC_Tg5
+$ss12_ArrayBufferV14immutableCountSivgSo8UIWindowC_Tg5
+$ss12_ArrayBufferV10_nonNatives06_CocoaA7WrapperVvgSo8UIWindowC_Tg5
+$ss12_ArrayBufferV9_isNativeSbvgSo8UIWindowC_Tg5
+objectdestroy.12
+__swift_project_boxed_opaque_existential_1
+__swift_destroy_boxed_opaque_existential_1
+$sSo22UIPanGestureRecognizerC_So6CGRectVtMa
+$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGMa
+$s7RxSwift10ObservableCy10Foundation12NotificationVGMa
+$sSo6CGRectVABSQ12CoreGraphicsWl
+$s10Foundation12NotificationVSo6CGRectVs5Error_pIegndzo_AcEsAF_pIegnrzo_TRTA
+$s10Foundation12NotificationVSo6CGRectVs5Error_pIegndzo_AcEsAF_pIegnrzo_TR
+$s10RxKeyboardAACABycfcSo6CGRectV10Foundation12NotificationVcfU4_TA
+$s10RxKeyboardAACABycfcSo6CGRectV10Foundation12NotificationVcfU4_
+subscript.get
+$ss17_NativeDictionaryV7_valuesSpyq_Gvgs11AnyHashableV_ypTg5
+_convertToAnyHashable
+objectdestroy
+$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyV12CoreGraphics7CGFloatVGMa
+$s12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtMa
+$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGMa
+$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSo6CGRectVGACyxq_GAA0cD15ConvertibleTypeAAWl
+$s7RxCocoa14SharedSequenceVyAA21DriverSharingStrategyVSbGACyxq_GAA0cD15ConvertibleTypeAAWl
+__swift_instantiateConcreteTypeFromMangledName
+$sSo6CGRectVwst
+$sSo6CGRectVwet
+__swift_memcpy32_8
+__swift_noop_void_return
+$sSo6CGRectVwCP
+gestureRecognizer
+$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8UIWindowC_Tg5
+$sSS12_createEmpty19withInitialCapacitySSSi_tFZ
+$sSS12_createEmpty19withInitialCapacitySSSi_tFZTf4nd_n
+$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5
+$ss11AnyHashableVSQsSQ2eeoiySbx_xtFZTW
+$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5
+$ss11AnyHashableVSHsSH13_rawHashValue4seedS2i_tFTW
+===
+isHidden.get
+willShowVisibleHeight.get
+visibleHeight.get
+frame.get
+$s10RxKeyboardAACfETo
+$s10RxKeyboardAACMa
+deinit
+init
+$sSo22UIPanGestureRecognizerCSo6CGRectV7RxSwift10ObservableCyADGs5Error_pIeggyozo_AB_ADtAHsAI_pIegnrzo_TR04$s10e27KeyboardAACABycfc0A5Swift10g5CySo6d6VGSo22abC10C_AGtcfU9_Tf3nnpf_n
+$s10RxKeyboardAACABycfc0A5Swift10ObservableCySo6CGRectVGSo22UIPanGestureRecognizerC_AGtcfU9_
+max
+$s12CoreGraphics7CGFloatVSLAASL2geoiySbx_xtFZTW
+$sSo22UIPanGestureRecognizerCSo6CGRectVAbDs5Error_pIeggyodzo_AbdB_ADtsAE_pIegnnrzo_TR027$s10RxKeyboardAACABycfcSo22abc5C_So6D13VtAD_AFtcfU8_Tf3nnnpf_n
+$sSo6CGRectVABs5Error_pIegydzo_A2BsAC_pIegnrzo_TR026$s10RxKeyboardAACABycfcSo6A8VADcfU7_Tf3nnpf_n
+$s10RxKeyboardAACABycfcSo6CGRectVADcfU7_
+$sSo6CGRectVABs5Error_pIegydzo_A2BsAC_pIegnrzo_TR026$s10RxKeyboardAACABycfcSo6A8VADcfU5_Tf3nnpf_n
+$s10RxKeyboardAACABycfcSo6CGRectVADcfU5_
+$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatVcfU3_
+$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVAE13visibleHeight_Sb9isShowingt_tcfU2_
+$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingt_tcfU1_
+$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtAeF_SbAGt_AEtcfU0_
+$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVSo6CGRectVcfU_
+_allocateUninitializedArray
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ7RxRelay08BehaviorG0CySo6CGRectVG_Tg5
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvg7RxRelay08BehaviorH0CySo6CGRectVG_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfC7RxRelay08BehaviorH0CySo6CGRectVG_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitF7RxRelay08BehaviorJ0CySo6CGRectVG_Tg5
+of
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ7RxSwift10ObservableCySo6CGRectVG_Tg5
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvg7RxSwift10ObservableCySo6CGRectVG_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfC7RxSwift10ObservableCySo6CGRectVG_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitF7RxSwift10ObservableCySo6CGRectVG_Tg5
+$s10RxKeyboardAAC13panRecognizer33_87309AF2E9C8A80D0DE5BEB75CC2B91FLLSo012UIPanGestureD0Cvpfi
+$s10RxKeyboardAAC10disposeBag33_87309AF2E9C8A80D0DE5BEB75CC2B91FLL0A5Swift07DisposeD0Cvpfi
+instance.get
+$s10RxKeyboardAAC8instanceABvau
+$s10RxKeyboardAAC8instance_WZ
+_swift_getFunctionTypeMetadataGlobalActorBackDeploy
+___swift_getFunctionTypeMetadataGlobalActorBackDeploy_block_invoke
+__ZZ50swift_getFunctionTypeMetadataGlobalActorBackDeployE9builderFn
+__ZZ50swift_getFunctionTypeMetadataGlobalActorBackDeployE12builderToken
+___block_descriptor_tmp
+___block_literal_global
+Apple clang version 13.1.6 (clang-1316.0.21.2.3)
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D SWIFT_INLINE_NAMESPACE=__runtime -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/CompatibilityConcurrency -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/include -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -arch arm64 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Werror=c++98-compat-extra-semi -Wall -Wglobal-constructors -Wexit-time-destructors -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibilityConcurrency -fembed-bitcode=all -D SWIFT_RUNTIME --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/AppleInternal/Library/Frameworks -O2 -g -D NDEBUG -D SWIFT_LIBRARY_EVOLUTION=0 -D SWIFT_STDLIB_HAS_DLADDR -D SWIFT_STDLIB_HAS_DARWIN_LIBMALLOC=1 -D SWIFT_STDLIB_HAS_STDIN -D SWIFT_STDLIB_HAS_ENVIRON -D SWIFT_RUNTIME_OS_VERSIONING -D SWIFT_STDLIB_SHORT_MANGLING_LOOKUPS -std=c++14 -MD -MT stdlib/toolchain/CompatibilityConcurrency/CMakeFiles/swiftCompatibilityConcurrency-iphoneos-arm64.dir/CompatibilityConcurrency.cpp.o -MF stdlib/toolchain/CompatibilityConcurrency/CMakeFiles/swiftCompatibilityConcurrency-iphoneos-arm64.dir/CompatibilityConcurrency.cpp.o.d -o stdlib/toolchain/CompatibilityConcurrency/CMakeFiles/swiftCompatibilityConcurrency-iphoneos-arm64.dir/CompatibilityConcurrency.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency/CompatibilityConcurrency.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -stdlib=libc++
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk
+iPhoneOS15.4.sdk
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency/CompatibilityConcurrency.cpp
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/swift-macosx-x86_64
+__swift_getFunctionTypeMetadataGlobalActorBackDeploy_block_invoke
+Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityConcurrency/CompatibilityConcurrency.cpp
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs
+swift_getFunctionTypeMetadataGlobalActorBackDeploy
+Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/usr/include/dispatch/once.h
+/AppleInternal/BuildRoot
+_swift_getFunctionReplacement50
+_swift_getOrigOfReplaceable50
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D SWIFT_INLINE_NAMESPACE=__runtime -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/CompatibilityDynamicReplacements -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityDynamicReplacements -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/include -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -arch arm64 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Werror=c++98-compat-extra-semi -Wall -Wglobal-constructors -Wexit-time-destructors -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibilityDynamicReplacements -fembed-bitcode=all -D SWIFT_RUNTIME --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/AppleInternal/Library/Frameworks -O2 -g -D NDEBUG -D SWIFT_LIBRARY_EVOLUTION=0 -D SWIFT_STDLIB_HAS_DLADDR -D SWIFT_STDLIB_HAS_DARWIN_LIBMALLOC=1 -D SWIFT_STDLIB_HAS_STDIN -D SWIFT_STDLIB_HAS_ENVIRON -D SWIFT_RUNTIME_OS_VERSIONING -D SWIFT_STDLIB_SHORT_MANGLING_LOOKUPS -std=c++14 -MD -MT stdlib/toolchain/CompatibilityDynamicReplacements/CMakeFiles/swiftCompatibilityDynamicReplacements-iphoneos-arm64.dir/DynamicReplaceable.cpp.o -MF stdlib/toolchain/CompatibilityDynamicReplacements/CMakeFiles/swiftCompatibilityDynamicReplacements-iphoneos-arm64.dir/DynamicReplaceable.cpp.o.d -o stdlib/toolchain/CompatibilityDynamicReplacements/CMakeFiles/swiftCompatibilityDynamicReplacements-iphoneos-arm64.dir/DynamicReplaceable.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityDynamicReplacements/DynamicReplaceable.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -stdlib=libc++
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityDynamicReplacements/DynamicReplaceable.cpp
+swift_getOrigOfReplaceable50
+Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/CompatibilityDynamicReplacements/DynamicReplaceable.cpp
+swift_getFunctionReplacement50
+__ZL29installGetClassHook_untrustedv
+__ZL35getObjCClassByMangledName_untrustedPKcPP10objc_class
+__ZL15OldGetClassHook
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D SWIFT_INLINE_NAMESPACE=__runtime -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/Compatibility50 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility50 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/include -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -arch arm64 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Werror=c++98-compat-extra-semi -Wall -Wglobal-constructors -Wexit-time-destructors -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibility50 -fembed-bitcode=all -D SWIFT_RUNTIME --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/AppleInternal/Library/Frameworks -O2 -g -D NDEBUG -D SWIFT_LIBRARY_EVOLUTION=0 -D SWIFT_STDLIB_HAS_DLADDR -D SWIFT_STDLIB_HAS_DARWIN_LIBMALLOC=1 -D SWIFT_STDLIB_HAS_STDIN -D SWIFT_STDLIB_HAS_ENVIRON -D SWIFT_RUNTIME_OS_VERSIONING -D SWIFT_STDLIB_SHORT_MANGLING_LOOKUPS -std=c++14 -MD -MT stdlib/toolchain/Compatibility50/CMakeFiles/swiftCompatibility50-iphoneos-arm64.dir/Overrides.cpp.o -MF stdlib/toolchain/Compatibility50/CMakeFiles/swiftCompatibility50-iphoneos-arm64.dir/Overrides.cpp.o.d -o stdlib/toolchain/Compatibility50/CMakeFiles/swiftCompatibility50-iphoneos-arm64.dir/Overrides.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility50/Overrides.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -stdlib=libc++
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility50/Overrides.cpp
+getObjCClassByMangledName_untrusted
+Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility50/Overrides.cpp
+llvm.loop.mustprogress
+installGetClassHook_untrusted
+/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --driver-mode=g++ -D CMARK_STATIC_DEFINE -D GTEST_HAS_RTTI=0 -D SWIFT_INLINE_NAMESPACE=__runtime -D __STDC_CONSTANT_MACROS -D __STDC_FORMAT_MACROS -D __STDC_LIMIT_MACROS -I stdlib/toolchain/Compatibility51 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility51 -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/include -I include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/llvm/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/llvm-project/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/llvm-macosx-x86_64/tools/clang/include -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/cmark/src -I /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_Xcode/cmark-macosx-x86_64/src -Wno-unknown-warning-option -Werror=unguarded-availability-new -fno-stack-protector -fPIC -fvisibility-inlines-hidden -Werror=date-time -Werror=unguarded-availability-new -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wmissing-field-initializers -Wimplicit-fallthrough -Wcovered-switch-default -Wno-class-memaccess -Wno-noexcept-type -Wnon-virtual-dtor -Wdelete-non-virtual-dtor -Wsuggest-override -Wstring-conversion -Wmisleading-indentation -fdiagnostics-color -Werror=switch -Wdocumentation -Wimplicit-fallthrough -Wunreachable-code -Woverloaded-virtual -D OBJC_OLD_DISPATCH_PROTOTYPES=0 -O2 -D NDEBUG -arch arm64 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fno-exceptions -funwind-tables -fno-rtti -Werror=gnu -Werror=c++98-compat-extra-semi -Wall -Wglobal-constructors -Wexit-time-destructors -D SWIFT_COMPATIBILITY_LIBRARY=1 -D SWIFT_TARGET_LIBRARY_NAME=swiftCompatibility51 -fembed-bitcode=all -D SWIFT_RUNTIME --target=arm64-apple-ios7.0 -isysroot /AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk -arch arm64 -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/Library/Frameworks -F/AppleInternal/BuildRoot/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.4.sdk/../../../Developer/AppleInternal/Library/Frameworks -O2 -g -D NDEBUG -D SWIFT_LIBRARY_EVOLUTION=0 -D SWIFT_STDLIB_HAS_DLADDR -D SWIFT_STDLIB_HAS_DARWIN_LIBMALLOC=1 -D SWIFT_STDLIB_HAS_STDIN -D SWIFT_STDLIB_HAS_ENVIRON -D SWIFT_RUNTIME_OS_VERSIONING -D SWIFT_STDLIB_SHORT_MANGLING_LOOKUPS -std=c++14 -MD -MT stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o -MF stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o.d -o stdlib/toolchain/Compatibility51/CMakeFiles/swiftCompatibility51-iphoneos-arm64.dir/Overrides.cpp.o -c /AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility51/Overrides.cpp -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-objc-load-method -Xclang -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -Xclang -clang-vendor-feature=+disableInferNewAvailabilityFromInit -Xclang -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -Xclang -fno-odr-hash-protocols -Xclang -clang-vendor-feature=+enableAggressiveVLAFolding -Xclang -clang-vendor-feature=+revert09abecef7bbf -Xclang -clang-vendor-feature=+thisNoAlignAttr -Xclang -clang-vendor-feature=+thisNoNullAttr -mlinker-version=762 -stdlib=libc++
+/AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-5.6.0.323.66/swift/stdlib/toolchain/Compatibility51/Overrides.cpp

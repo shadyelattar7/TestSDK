@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Verification Code-->
+        <scene sceneID="r72-XX-vmU">
+            <objects>
+                <viewController storyboardIdentifier="ServiceViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="swo-vY-GJ9" customClass="ServiceViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9i6-nI-1f8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="gqi-fR-uAp">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ServiceInfoTableViewCell" rowHeight="125" id="WKe-0F-LFc" customClass="ServiceInfoTableViewCell" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="125"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WKe-0F-LFc" id="xzi-PR-kqs">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FFh-hR-K6x">
+                                                    <rect key="frame" x="40" y="52.5" width="334" height="20"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zo-aQ-3sw">
+                                                            <rect key="frame" x="0.0" y="0.0" width="294" height="20"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4te-HL-drk">
+                                                            <rect key="frame" x="314" y="0.0" width="20" height="20"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="20" id="DOS-6T-amX"/>
+                                                                <constraint firstAttribute="width" constant="20" id="Ouo-Ni-23i"/>
+                                                            </constraints>
+                                                            <state key="normal" image="slideToConfirm"/>
+                                                        </button>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FFh-hR-K6x" firstAttribute="centerY" secondItem="xzi-PR-kqs" secondAttribute="centerY" id="U6u-r2-z13"/>
+                                                <constraint firstItem="FFh-hR-K6x" firstAttribute="leading" secondItem="xzi-PR-kqs" secondAttribute="leadingMargin" constant="20" id="kSD-R5-yO3"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="FFh-hR-K6x" secondAttribute="trailing" constant="20" id="p9l-pT-j0L"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="serivceInfoLabel" destination="9Zo-aQ-3sw" id="YKS-U1-QFA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="swo-vY-GJ9" id="XOz-sF-beJ"/>
+                                    <outlet property="delegate" destination="swo-vY-GJ9" id="uYi-D0-qwl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5uc-tb-eIZ"/>
+                        <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5uc-tb-eIZ" firstAttribute="bottom" secondItem="gqi-fR-uAp" secondAttribute="bottom" id="DJM-Yf-JYA"/>
+                            <constraint firstItem="5uc-tb-eIZ" firstAttribute="trailing" secondItem="gqi-fR-uAp" secondAttribute="trailing" id="Qa0-sK-9sc"/>
+                            <constraint firstItem="gqi-fR-uAp" firstAttribute="leading" secondItem="5uc-tb-eIZ" secondAttribute="leading" id="cih-mC-8Qh"/>
+                            <constraint firstItem="gqi-fR-uAp" firstAttribute="top" secondItem="5uc-tb-eIZ" secondAttribute="top" id="w3W-zv-6qq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Verification Code" id="umU-tA-N7Z">
+                        <barButtonItem key="leftBarButtonItem" image="Menu-23" id="rGV-Ip-N5j">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="menuBtn:" destination="swo-vY-GJ9" id="fBW-db-Qyi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="serviceInfoTableView" destination="gqi-fR-uAp" id="hVN-s6-6a7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="36p-PE-nj0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-733.33333333333337" y="63.616071428571423"/>
+        </scene>
+        <!--Service Info-->
+        <scene sceneID="PsN-JX-bz7">
+            <objects>
+                <viewController storyboardIdentifier="ServiceInfoDetailsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dBb-3p-7as" customClass="ServiceInfoDetailsViewController" customModule="Paymob_Wallet" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X4G-J9-P6Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="aUs-L7-TSO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fz6-aV-RdZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="SWf-W1-Owf">
+                                <rect key="frame" x="152" y="782" width="110" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hMt-Di-Hiw" customClass="PaymobUIButton" customModule="Paymob_Wallet" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="40"/>
+                                        <color key="backgroundColor" red="0.22352941179999999" green="0.23529411759999999" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="iwO-kr-Cfq"/>
+                                            <constraint firstAttribute="height" constant="40" id="oJk-7h-bys"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                                        <state key="normal" title="More Info">
+                                            <color key="titleColor" red="0.99416029449999999" green="0.99413049220000005" blue="0.9941474199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="moreInfo:" destination="dBb-3p-7as" eventType="touchUpInside" id="jQ3-1k-2hJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Label Label Label Label Label Label Label Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YhS-By-74A">
+                                <rect key="frame" x="10" y="69" width="394" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1Xd-yX-aRQ"/>
+                        <color key="backgroundColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aUs-L7-TSO" firstAttribute="top" secondItem="SWf-W1-Owf" secondAttribute="bottom" constant="40" id="8A4-fX-9LI"/>
+                            <constraint firstItem="1Xd-yX-aRQ" firstAttribute="trailing" secondItem="YhS-By-74A" secondAttribute="trailing" constant="10" id="DXM-cH-wa3"/>
+                            <constraint firstItem="YhS-By-74A" firstAttribute="top" secondItem="1Xd-yX-aRQ" secondAttribute="top" constant="25" id="aKe-cj-SVN"/>
+                            <constraint firstItem="SWf-W1-Owf" firstAttribute="centerX" secondItem="fz6-aV-RdZ" secondAttribute="centerX" id="azq-Yb-ohR"/>
+                            <constraint firstItem="YhS-By-74A" firstAttribute="leading" secondItem="1Xd-yX-aRQ" secondAttribute="leading" constant="10" id="r2U-Wc-4bY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Service Info" id="ios-DL-48h">
+                        <barButtonItem key="backBarButtonItem" title="back" id="cAD-Rq-rbq">
+                            <color key="tintColor" red="0.99416029449999999" green="0.99413049220000005" blue="0.9941474199" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="serviceInfoContext" destination="YhS-By-74A" id="wHF-9X-MQj"/>
+                        <outlet property="stackViewMoreInfo" destination="SWf-W1-Owf" id="LLq-nN-Put"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uFj-fd-OcU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="64"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Menu-23" width="30" height="17"/>
+        <image name="slideToConfirm" width="32" height="50"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
